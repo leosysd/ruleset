@@ -176,14 +176,20 @@ filter_excluded_domains() {
       | split("\n")
       | map(sub("#.*$"; "") | gsub("^\\s+|\\s+$"; "") | ascii_downcase)
       | map(select(length > 0))) as $blocked
-    | .rules |= map(
+    | def clean_domains:
+        if type == "array" then
+          map(select((ascii_downcase | IN($blocked[])) | not))
+        elif type == "string" then
+          if (ascii_downcase | IN($blocked[])) then null else . end
+        else . end;
+    .rules |= map(
         if has("domain") then
-          .domain |= map(select((ascii_downcase | IN($blocked[])) | not))
+          .domain = (.domain | clean_domains)
         else . end
         | if has("domain_suffix") then
-          .domain_suffix |= map(select((ascii_downcase | IN($blocked[])) | not))
+          .domain_suffix = (.domain_suffix | clean_domains)
         else . end
-        | with_entries(select((.value | type) != "array" or (.value | length) > 0))
+        | with_entries(select(.value != null and ((.value | type) != "array" or (.value | length) > 0)))
       )
     | .rules |= map(select(length > 0))
   ' "$json" > "$json.filtered"
