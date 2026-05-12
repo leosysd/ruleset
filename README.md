@@ -47,19 +47,19 @@ OpenWrt 路由器可以只下载 `dist/` 内成品：
 
 插件不需要修改 sing-box 主配置，也不需要修改 inbound、outbound、节点或 mosdns 主逻辑。
 
-可以安装仓库里的一键脚本：
+可以安装仓库里的更新脚本：
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/leosysd/ruleset/main/install.sh | sh
 ```
+
+默认 cron 是每天北京时间 07:45 拉取 GitHub 生成好的 6 个成品文件。
 
 如果路由器没有 `curl`，可以用：
 
 ```bash
 wget -O- https://raw.githubusercontent.com/leosysd/ruleset/main/install.sh | sh
 ```
-
-默认 cron 是每天北京时间 07:45 拉取 GitHub 生成好的 6 个成品文件。
 
 卸载自动更新脚本：
 
@@ -69,6 +69,18 @@ rm -f /usr/bin/update-geosite-rules
 ```
 
 上面只会删除自动更新脚本和 cron，不会删除已经生成的规则文件。
+
+### mosdns + sing-box DNS 劫持处理
+
+如果 sing-box 的 `auto_redirect` 自动生成了 53 端口 DNS DNAT，而你的 DNS 流程由 mosdns 接管，可以安装这个辅助脚本：
+
+```bash
+wget -O /usr/bin/sing-box-disable-dns-hijack \
+  https://raw.githubusercontent.com/leosysd/ruleset/main/openwrt/sing-box-disable-dns-hijack.sh
+chmod +x /usr/bin/sing-box-disable-dns-hijack
+```
+
+这个脚本只删除 `inet sing-box` 表里由 sing-box 生成的 53 端口 DNAT，不会删除 OpenWrt fw4 的 DNS 重定向规则。
 
 ## 手动构建
 
