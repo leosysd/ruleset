@@ -47,14 +47,16 @@ OpenWrt 路由器可以只下载 `dist/` 内成品：
 
 插件不需要修改 sing-box 主配置，也不需要修改 inbound、outbound、节点或 mosdns 主逻辑。
 
-可以安装仓库里的更新脚本：
+可以安装仓库里的一键脚本：
 
 ```bash
-wget -O /usr/bin/update-geosite-rules \
-  https://raw.githubusercontent.com/leosysd/ruleset/main/openwrt/update-geosite-rules.sh
-chmod +x /usr/bin/update-geosite-rules
-/usr/bin/update-geosite-rules update
-/usr/bin/update-geosite-rules install-cron
+curl -fsSL https://raw.githubusercontent.com/leosysd/ruleset/main/install.sh | sh
+```
+
+如果路由器没有 `curl`，可以用：
+
+```bash
+wget -O- https://raw.githubusercontent.com/leosysd/ruleset/main/install.sh | sh
 ```
 
 默认 cron 是每天北京时间 07:45 拉取 GitHub 生成好的 6 个成品文件。
