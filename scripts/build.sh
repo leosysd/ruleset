@@ -14,6 +14,7 @@ STATE_DIR="$WORK_DIR/state"
 
 DIRECT_LIST="$LIST_DIR/direct.txt"
 PROXY_LIST="$LIST_DIR/proxy.txt"
+DIRECT_EXCLUDE_LIST="$LIST_DIR/direct-exclude.txt"
 
 log() {
   printf '[%(%Y-%m-%d %H:%M:%S)T] %s\n' -1 "$*" >&2
@@ -165,6 +166,28 @@ write_empty_source_json() {
   printf '{\n  "version": 1,\n  "rules": []\n}\n' > "$path"
 }
 
+filter_excluded_domains() {
+  local group="$1" json="$2"
+  [ "$group" = "direct" ] || return 0
+  [ -s "$DIRECT_EXCLUDE_LIST" ] || return 0
+
+  jq --rawfile exclude "$DIRECT_EXCLUDE_LIST" '
+    ($exclude
+      | split("\n")
+      | map(sub("#.*$"; "") | gsub("^\\s+|\\s+$"; "") | ascii_downcase)
+      | map(select(length > 0))) as $blocked
+    | .rules |= map(
+        if has("domain") then
+          .domain |= map(select((ascii_downcase | IN($blocked[])) | not))
+        else . end
+        | if has("domain_suffix") then
+          .domain_suffix |= map(select((ascii_downcase | IN($blocked[])) | not))
+        else . end
+      )
+  ' "$json" > "$json.filtered"
+  mv -f "$json.filtered" "$json"
+}
+
 json_to_mosdns_txt() {
   local json="$1" txt="$2"
   jq -r '
@@ -198,6 +221,7 @@ build_group() {
     write_empty_source_json "$merged"
   fi
   [ -s "$merged" ] || die "empty merged json: $merged"
+  filter_excluded_domains "$group" "$merged"
 
   log "compile $group-geosite.srs"
   rm -f "$srs"
