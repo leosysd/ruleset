@@ -1,0 +1,28 @@
+{
+  "rule_set": [
+    {
+      "type": "local",
+      "tag": "direct-geosite",
+      "format": "binary",
+      "path": "/etc/sing-box/rule-set/direct-geosite.srs"
+    },
+    {
+      "type": "local",
+      "tag": "proxy-geosite",
+      "format": "binary",
+      "path": "/etc/sing-box/rule-set/proxy-geosite.srs"
+    }
+  ],
+  "rules": [
+    {
+      "rule_set": [ "direct-geosite" ],
+      "action": "route",
+      "outbound": "direct"
+    },
+    {
+      "rule_set": [ "proxy-geosite" ],
+      "action": "route",
+      "outbound": "proxy"
+    }
+  ]
+}

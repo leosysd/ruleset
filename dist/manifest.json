@@ -1,0 +1,25 @@
+{
+  "generated_at": "2026-05-12T11:21:44Z",
+  "source_url": "https://github.com/SagerNet/sing-geosite/archive/refs/heads/rule-set.zip",
+  "rule_count": {
+    "direct": 316,
+    "proxy": 53,
+    "found": 369,
+    "missing": 0,
+    "conflict": 0
+  },
+  "outputs": {
+    "sing_box_binary": [
+      "direct-geosite.srs",
+      "proxy-geosite.srs"
+    ],
+    "mosdns_domain_set": [
+      "direct-geosite.txt",
+      "proxy-geosite.txt"
+    ],
+    "json_rule_set": [
+      "direct-geosite.json",
+      "proxy-geosite.json"
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+plugins:
+  - tag: direct_geosite
+    type: domain_set
+    args:
+      files:
+        - "/etc/mosdns/rule/direct-geosite.txt"
+  - tag: proxy_geosite
+    type: domain_set
+    args:
+      files:
+        - "/etc/mosdns/rule/proxy-geosite.txt"
