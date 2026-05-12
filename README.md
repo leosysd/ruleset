@@ -11,7 +11,7 @@
 
 ## 输出
 
-构建完成后，`dist/` 会生成三组文件：
+构建完成后，`dist/` 只保留三组共 6 个成品文件：
 
 - sing-box 二进制规则集
   - `direct-geosite.srs`
@@ -23,12 +23,7 @@
   - `direct-geosite.json`
   - `proxy-geosite.json`
 
-辅助文件：
-
-- `manifest.json`：构建时间、规则数量、输出文件清单。
-- `scan-preview.txt`：找到、缺失、冲突的规则预览。
-- `sing-box-route.json`：sing-box route 片段。
-- `mosdns-domain-set.yaml`：mosdns domain_set 片段。
+`dist/` 不放扫描日志、配置片段或 manifest，避免路由器下载时混淆。
 
 ## 每日自动构建
 
