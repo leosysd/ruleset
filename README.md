@@ -61,6 +61,15 @@ wget -O- https://raw.githubusercontent.com/leosysd/ruleset/main/install.sh | sh
 
 默认 cron 是每天北京时间 07:45 拉取 GitHub 生成好的 6 个成品文件。
 
+卸载自动更新脚本：
+
+```bash
+/usr/bin/update-geosite-rules remove-cron
+rm -f /usr/bin/update-geosite-rules
+```
+
+上面只会删除自动更新脚本和 cron，不会删除已经生成的规则文件。
+
 ## 手动构建
 
 本地需要安装：
