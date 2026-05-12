@@ -82,6 +82,12 @@ chmod +x /usr/bin/sing-box-disable-dns-hijack
 
 这个脚本只删除 `inet sing-box` 表里由 sing-box 生成的 53 端口 DNAT，不会删除 OpenWrt fw4 的 DNS 重定向规则。
 
+卸载这个辅助脚本：
+
+```bash
+rm -f /usr/bin/sing-box-disable-dns-hijack
+```
+
 ## 手动构建
 
 本地需要安装：
