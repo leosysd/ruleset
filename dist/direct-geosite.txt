@@ -4488,8 +4488,6 @@ domain:statis.api.3g.youku.com
 domain:stats.music.xiaomi.com
 domain:statusfeishu.cn
 domain:stcn.com
-domain:steam302.xyz
-domain:steampp.net
 domain:sto-express.cn
 domain:sto-express.com
 domain:sto-express.com.cn
