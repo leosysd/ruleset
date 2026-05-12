@@ -183,7 +183,9 @@ filter_excluded_domains() {
         | if has("domain_suffix") then
           .domain_suffix |= map(select((ascii_downcase | IN($blocked[])) | not))
         else . end
+        | with_entries(select((.value | type) != "array" or (.value | length) > 0))
       )
+    | .rules |= map(select(length > 0))
   ' "$json" > "$json.filtered"
   mv -f "$json.filtered" "$json"
 }
