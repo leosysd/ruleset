@@ -1,0 +1,49 @@
+name: Build Geosite Rule Sets
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "lists/**"
+      - "scripts/**"
+      - ".github/workflows/build.yml"
+  schedule:
+    # 04:30 Asia/Shanghai
+    - cron: "30 20 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y curl jq unzip
+
+      - name: Install sing-box
+        run: |
+          set -Eeuo pipefail
+          api="https://api.github.com/repos/SagerNet/sing-box/releases/latest"
+          url="$(curl -fsSL "$api" | jq -r '.assets[].browser_download_url' | grep 'linux-amd64.tar.gz$' | head -n 1)"
+          test -n "$url"
+          curl -fL -o /tmp/sing-box.tar.gz "$url"
+          mkdir -p /tmp/sing-box
+          tar -xzf /tmp/sing-box.tar.gz -C /tmp/sing-box --strip-components=1
+          sudo install -m 0755 /tmp/sing-box/sing-box /usr/local/bin/sing-box
+          sing-box version
+
+      - name: Build rule outputs
+        run: ./scripts/build.sh
+
+      - name: Commit updated dist
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update generated geosite rule sets"
+          file_pattern: "dist/*"
