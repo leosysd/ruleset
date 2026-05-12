@@ -65,7 +65,7 @@ SOURCE_URL=https://github.com/SagerNet/sing-geosite/tree/rule-set ./scripts/buil
 
 ## 路由器侧使用建议
 
-OpenWrt 插件后续可以只下载 `dist/` 内成品：
+OpenWrt 路由器可以只下载 `dist/` 内成品：
 
 - `/etc/sing-box/rule-set/direct-geosite.srs`
 - `/etc/sing-box/rule-set/proxy-geosite.srs`
@@ -73,3 +73,14 @@ OpenWrt 插件后续可以只下载 `dist/` 内成品：
 - `/etc/mosdns/rule/proxy-geosite.txt`
 
 插件不需要修改 sing-box 主配置，也不需要修改 inbound、outbound、节点或 mosdns 主逻辑。
+
+可以安装仓库里的更新脚本：
+
+```bash
+wget -O /usr/bin/update-geosite-rules https://raw.githubusercontent.com/leosysd/ruleset/main/openwrt/update-geosite-rules.sh
+chmod +x /usr/bin/update-geosite-rules
+/usr/bin/update-geosite-rules update
+/usr/bin/update-geosite-rules install-cron
+```
+
+默认 cron 是每天北京时间 07:45 拉取 GitHub 生成好的 6 个成品文件。
