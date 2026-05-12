@@ -43,7 +43,7 @@ jobs:
         run: ./scripts/build.sh
 
       - name: Commit updated dist
-        uses: stefanzweifel/git-auto-commit-action@v5
+        uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: "chore: update generated geosite rule sets"
           file_pattern: "dist/*"
