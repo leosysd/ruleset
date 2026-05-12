@@ -102,6 +102,7 @@ download_source() {
 prepare_workdir() {
   rm -rf "$EXTRACT_DIR" "$PARTS_DIR" "$STATE_DIR"
   mkdir -p "$EXTRACT_DIR" "$PARTS_DIR" "$STATE_DIR" "$DIST_DIR"
+  rm -f "$DIST_DIR"/* "$DIST_DIR"/.[!.]*
   unzip -q "$ZIP_FILE" -d "$EXTRACT_DIR"
 }
 
@@ -135,7 +136,7 @@ scan_rules() {
     sed 's/^/  /' "$STATE_DIR/missing.txt"
     printf '\nConflict rules:\n'
     sed 's/^/  /' "$STATE_DIR/conflict.txt"
-  } > "$DIST_DIR/scan-preview.txt"
+  } > "$STATE_DIR/scan-preview.txt"
 }
 
 decompile_group() {
@@ -210,82 +211,6 @@ build_group() {
   json_to_mosdns_txt "$json" "$txt"
 }
 
-write_snippets() {
-  cat > "$DIST_DIR/sing-box-route.json" <<'EOF'
-{
-  "rule_set": [
-    {
-      "type": "local",
-      "tag": "direct-geosite",
-      "format": "binary",
-      "path": "/etc/sing-box/rule-set/direct-geosite.srs"
-    },
-    {
-      "type": "local",
-      "tag": "proxy-geosite",
-      "format": "binary",
-      "path": "/etc/sing-box/rule-set/proxy-geosite.srs"
-    }
-  ],
-  "rules": [
-    {
-      "rule_set": [ "direct-geosite" ],
-      "action": "route",
-      "outbound": "direct"
-    },
-    {
-      "rule_set": [ "proxy-geosite" ],
-      "action": "route",
-      "outbound": "proxy"
-    }
-  ]
-}
-EOF
-
-  cat > "$DIST_DIR/mosdns-domain-set.yaml" <<'EOF'
-plugins:
-  - tag: direct_geosite
-    type: domain_set
-    args:
-      files:
-        - "/etc/mosdns/rule/direct-geosite.txt"
-  - tag: proxy_geosite
-    type: domain_set
-    args:
-      files:
-        - "/etc/mosdns/rule/proxy-geosite.txt"
-EOF
-}
-
-write_manifest() {
-  local generated_at
-  generated_at="$(date -u '+%Y-%m-%dT%H:%M:%SZ')"
-  jq -n \
-    --arg generated_at "$generated_at" \
-    --arg source_url "$(normalize_download_url "$SOURCE_URL")" \
-    --arg direct_count "$(wc -l < "$STATE_DIR/direct.selected" | tr -d ' ')" \
-    --arg proxy_count "$(wc -l < "$STATE_DIR/proxy.selected" | tr -d ' ')" \
-    --arg found_count "$(wc -l < "$STATE_DIR/found.txt" | tr -d ' ')" \
-    --arg missing_count "$(wc -l < "$STATE_DIR/missing.txt" | tr -d ' ')" \
-    --arg conflict_count "$(wc -l < "$STATE_DIR/conflict.txt" | tr -d ' ')" \
-    '{
-      generated_at: $generated_at,
-      source_url: $source_url,
-      rule_count: {
-        direct: ($direct_count | tonumber),
-        proxy: ($proxy_count | tonumber),
-        found: ($found_count | tonumber),
-        missing: ($missing_count | tonumber),
-        conflict: ($conflict_count | tonumber)
-      },
-      outputs: {
-        sing_box_binary: ["direct-geosite.srs", "proxy-geosite.srs"],
-        mosdns_domain_set: ["direct-geosite.txt", "proxy-geosite.txt"],
-        json_rule_set: ["direct-geosite.json", "proxy-geosite.json"]
-      }
-    }' > "$DIST_DIR/manifest.json"
-}
-
 main() {
   need_cmd curl
   need_cmd unzip
@@ -300,8 +225,6 @@ main() {
   scan_rules
   build_group direct
   build_group proxy
-  write_snippets
-  write_manifest
   log "build completed: $DIST_DIR"
 }
 
