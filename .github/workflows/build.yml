@@ -8,8 +8,8 @@ on:
       - "scripts/**"
       - ".github/workflows/build.yml"
   schedule:
-    # 04:30 Asia/Shanghai
-    - cron: "30 20 * * *"
+    # 07:30 Asia/Shanghai
+    - cron: "30 23 * * *"
 
 permissions:
   contents: write
