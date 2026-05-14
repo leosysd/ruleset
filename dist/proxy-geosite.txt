@@ -13,6 +13,7 @@ domain:.goog
 domain:.google
 domain:.guge
 domain:.hangout
+domain:.hbo
 domain:.hotmail
 domain:.microsoft
 domain:.nexus

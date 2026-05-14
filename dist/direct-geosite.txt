@@ -396,6 +396,7 @@ domain:97973.com
 domain:98.100.in-addr.arpa
 domain:99.100.in-addr.arpa
 domain:99fund.com
+domain:99jiasu.net
 domain:9coof.cn
 domain:9game.cn
 domain:9xgame.com
@@ -782,6 +783,7 @@ domain:astral-vector.com
 domain:atanx.alicdn.com
 domain:atanx2.alicdn.com
 domain:atatech.org
+domain:atianqi.com
 domain:atm.youku.com
 domain:audid.umeng.com
 domain:aurorapush.cn
@@ -871,6 +873,8 @@ domain:banxiaoer.net
 domain:baofeng.com
 domain:baofeng.net
 domain:baomitu.com
+domain:baozou.com
+domain:baozoumanhua.com
 domain:battlecare.net
 domain:baydn.com
 domain:bazai.com
@@ -1290,6 +1294,7 @@ domain:chinaaet.com
 domain:chinaamc.com
 domain:chinabank.com.cn
 domain:chinabooktrading.com
+domain:chinabyte.com
 domain:chinaepg.cn
 domain:chinahr.com
 domain:chinalions.com
@@ -1331,6 +1336,7 @@ domain:chuanke.com
 domain:chuapp.com
 domain:cib-fund.com.cn
 domain:cib.com.cn
+domain:cibn.cc
 domain:cibntv.net
 domain:cicc.com
 domain:ciccwm.com
@@ -2064,6 +2070,7 @@ domain:faloo.com
 domain:fanfou.com
 domain:fang.com
 domain:fanmingming.com
+domain:fanqiecopyright.com
 domain:fanqienovel.com
 domain:fanqieopen.com
 domain:fanqieopenpic.com
@@ -2174,6 +2181,7 @@ domain:fqnovelop.com
 domain:fqnovelpic.com
 domain:fqnovelstatic.com
 domain:fqnovelvod.com
+domain:fqopenplatform.com
 domain:freebuf.com
 domain:freshhema.com
 domain:freshippo.com
@@ -2636,6 +2644,7 @@ domain:httpsdns.baidu.com
 domain:huaan.com.cn
 domain:huafeng-accuweather.cn
 domain:huafengaw.com
+domain:huajiao.com
 domain:huajingsec.com
 domain:huajinsc.cn
 domain:huangyuhui.net
@@ -2872,6 +2881,7 @@ domain:ihuoshanvod.com
 domain:ihykb.com
 domain:ijinshan.com
 domain:ikanchai.com
+domain:ikstatic.cn
 domain:ilanzou.com
 domain:im9.com
 domain:imaicai.mobi
@@ -2895,6 +2905,7 @@ domain:inanguapi.com
 domain:incopat.com
 domain:inewsweek.cn
 domain:infineon.cn
+domain:inke.cn
 domain:inkuai.com
 domain:inkwai.com
 domain:inspirecloud.cn
@@ -3195,6 +3206,7 @@ domain:jztvnews.com
 domain:ka9bv.cn
 domain:kaifayun.com
 domain:kaihong.com
+domain:kajicam.com
 domain:kanbox.com
 domain:kanimg.com
 domain:kankanews.com
@@ -3979,12 +3991,14 @@ domain:pddcdn.com
 domain:pddim.com
 domain:pddpic.com
 domain:pddugc.com
+domain:pdnews.cn
 domain:pearvideo.com
 domain:peiluyou.com
 domain:pengyoudewu.cn
 domain:pengyoudewu.com
 domain:people.cn
 domain:people.com.cn
+domain:peopleapp.com
 domain:perekrestok.com
 domain:perekrestok.ru
 domain:pg0.cn
@@ -4751,6 +4765,7 @@ domain:ti.com.cn
 domain:tiancity.com
 domain:tiancitycdn.com
 domain:tiangong.cn
+domain:tianjimedia.com
 domain:tianpeng.com
 domain:tianshucup.com
 domain:tianxiajiameng.cn
@@ -5235,6 +5250,7 @@ domain:wss.show
 domain:wss.zone
 domain:wss1.cn
 domain:wsukwai.com
+domain:wting.info
 domain:wtzw.com
 domain:wuliao.epro.sogou.com
 domain:wuliujie.cn
@@ -5276,6 +5292,7 @@ domain:xedge.cc
 domain:xesimg.com
 domain:xf-fund.com
 domain:xfyun.cn
+domain:xgo-img.com.cn
 domain:xhaiwai.com
 domain:xhby.net
 domain:xhlsgs.com
@@ -5404,6 +5421,7 @@ domain:yeah.net
 domain:yebaojiasu.com
 domain:yeshen.com
 domain:yeshj.com
+domain:yesky.com
 domain:yeyousg.com
 domain:yfcache.com
 domain:yfcalc.com
