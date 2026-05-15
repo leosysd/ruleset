@@ -257,7 +257,7 @@ build_group() {
   local txt="$DIST_DIR/$group-geosite.txt" count
 
   cp "$selected" "$source_list"
-  if [ "$group" = "proxy" ] && [ -s "$STATE_DIR/conflict.txt" ]; then
+  if [ "$group" = "direct" ] && [ -s "$STATE_DIR/conflict.txt" ]; then
     grep -vxF -f "$STATE_DIR/conflict.txt" "$source_list" > "$source_list.filtered" || true
     mv -f "$source_list.filtered" "$source_list"
   fi

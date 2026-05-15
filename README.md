@@ -9,6 +9,8 @@
 - `lists/proxy.txt`：代理 geosite 规则标签，每行一个。
 - `lists/direct-exclude.txt`：从直连成品里强制排除的具体域名，每行一个。
 
+如果同一个 geosite 标签同时出现在 `direct.txt` 和 `proxy.txt`，构建时会从直连列表里剔除，保留代理列表里的标签。
+
 规则名可以写成 `google`，也可以写成 `geosite-google.srs`。空行和 `#` 注释会被忽略。
 
 ## 输出
