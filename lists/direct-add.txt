@@ -8,8 +8,4 @@
 #   regexp:^example\\.   domain regex
 
 botvip.cn
-cn
-fm3838.com
-larsonlimited.com
-zoom3g.com
-zoomyou.cn
+
