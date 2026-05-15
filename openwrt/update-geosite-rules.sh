@@ -37,7 +37,7 @@ Usage: /usr/bin/update-geosite-rules <command>
 Commands:
   update        Download and atomically install generated rule files
   status        Show generated rule file status
-  install-cron  Install daily cron job at 07:45
+  install-cron  Install weekly cron job at Tuesday 07:45
   remove-cron   Remove installed cron job
   clear-log     Clear log file
 
@@ -153,10 +153,10 @@ install_cron() {
 	touch "$CRON_FILE"
 	tmp="$CRON_FILE.tmp.$$"
 	grep -v "$CRON_MARK" "$CRON_FILE" > "$tmp" || true
-	printf '45 7 * * * /usr/bin/update-geosite-rules update %s\n' "$CRON_MARK" >> "$tmp"
+	printf '45 7 * * 2 /usr/bin/update-geosite-rules update %s\n' "$CRON_MARK" >> "$tmp"
 	mv -f "$tmp" "$CRON_FILE"
 	/etc/init.d/cron restart >/dev/null 2>&1 || true
-	log "installed cron: 07:45 daily"
+	log "installed cron: Tuesday 07:45 weekly"
 }
 
 remove_cron() {
