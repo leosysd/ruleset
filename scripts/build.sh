@@ -13,6 +13,7 @@ PARTS_DIR="$WORK_DIR/parts"
 STATE_DIR="$WORK_DIR/state"
 
 DIRECT_LIST="$LIST_DIR/direct.txt"
+DIRECT_ADD_LIST="$LIST_DIR/direct-add.txt"
 PROXY_LIST="$LIST_DIR/proxy.txt"
 DIRECT_EXCLUDE_LIST="$LIST_DIR/direct-exclude.txt"
 
@@ -110,7 +111,7 @@ prepare_workdir() {
 scan_rules() {
   local rule src
   find "$EXTRACT_DIR" -type f -name 'geosite-*.srs' -exec basename {} \; | sort -u > "$STATE_DIR/available.txt"
-  list_rules "$DIRECT_LIST" > "$STATE_DIR/direct.selected"
+  cat <(list_rules "$DIRECT_LIST") <(list_rules "$DIRECT_ADD_LIST") | sort -u > "$STATE_DIR/direct.selected"
   list_rules "$PROXY_LIST" > "$STATE_DIR/proxy.selected"
 
   if [ -s "$STATE_DIR/direct.selected" ] && [ -s "$STATE_DIR/proxy.selected" ]; then
