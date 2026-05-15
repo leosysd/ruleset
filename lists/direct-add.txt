@@ -1,8 +1,15 @@
-# Extra direct rules.
-# Keep this list conservative: China-region tags only.
-# Do not add ads tags such as category-ads@cn here.
+# Extra direct domains.
+# Bare domains are added as domain_suffix.
+# Supported prefixes:
+#   full:example.com     exact domain
+#   domain:example.com   domain suffix
+#   suffix:example.com   domain suffix
+#   keyword:example      domain keyword
+#   regexp:^example\\.   domain regex
 
-apple-dev@cn
-apple-pki@cn
-apple@cn
-
+botvip.cn
+cn
+fm3838.com
+larsonlimited.com
+zoom3g.com
+zoomyou.cn

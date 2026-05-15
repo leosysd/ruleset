@@ -5,7 +5,7 @@
 ## 输入
 
 - `lists/direct.txt`：直连 geosite 规则标签，每行一个。
-- `lists/direct-add.txt`：额外直连 geosite 规则标签，用于追加中国区子规则，构建时会和 `direct.txt` 合并。
+- `lists/direct-add.txt`：额外直连域名，每行一个；默认按 `domain_suffix` 处理，也支持 `full:`、`domain:`、`suffix:`、`keyword:`、`regexp:` 前缀。
 - `lists/proxy.txt`：代理 geosite 规则标签，每行一个。
 - `lists/direct-exclude.txt`：从直连成品里强制排除的具体域名，每行一个。
 

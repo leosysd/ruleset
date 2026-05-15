@@ -13,7 +13,7 @@ PARTS_DIR="$WORK_DIR/parts"
 STATE_DIR="$WORK_DIR/state"
 
 DIRECT_LIST="$LIST_DIR/direct.txt"
-DIRECT_ADD_LIST="$LIST_DIR/direct-add.txt"
+DIRECT_DOMAIN_ADD_LIST="$LIST_DIR/direct-add.txt"
 PROXY_LIST="$LIST_DIR/proxy.txt"
 DIRECT_EXCLUDE_LIST="$LIST_DIR/direct-exclude.txt"
 
@@ -77,6 +77,47 @@ list_rules() {
   done < "$list_file" | sort -u
 }
 
+append_direct_added_domains() {
+  local json="$1"
+  [ -s "$DIRECT_DOMAIN_ADD_LIST" ] || return 0
+
+  jq --rawfile add "$DIRECT_DOMAIN_ADD_LIST" '
+    def trim: gsub("^\\s+|\\s+$"; "");
+    def clean_lines:
+      $add
+      | split("\n")
+      | map(sub("#.*$"; "") | gsub("\r"; "") | trim)
+      | map(select(length > 0));
+    def push_value($key; $value):
+      .[$key] = ((.[$key] // []) + [$value]);
+    (clean_lines | reduce .[] as $line (
+      {domain: [], domain_suffix: [], domain_keyword: [], domain_regex: []};
+      if ($line | startswith("full:")) then
+        push_value("domain"; ($line | sub("^full:"; "") | trim))
+      elif ($line | startswith("domain:")) then
+        push_value("domain_suffix"; ($line | sub("^domain:"; "") | trim))
+      elif ($line | startswith("suffix:")) then
+        push_value("domain_suffix"; ($line | sub("^suffix:"; "") | trim))
+      elif ($line | startswith("keyword:")) then
+        push_value("domain_keyword"; ($line | sub("^keyword:"; "") | trim))
+      elif ($line | startswith("regexp:")) then
+        push_value("domain_regex"; ($line | sub("^regexp:"; "") | trim))
+      elif ($line | startswith("regex:")) then
+        push_value("domain_regex"; ($line | sub("^regex:"; "") | trim))
+      else
+        push_value("domain_suffix"; $line)
+      end
+    )) as $extra
+    | ($extra | with_entries(select(.value | length > 0))) as $rule
+    | if ($rule | length) == 0 then
+        .
+      else
+        .rules += [$rule]
+      end
+  ' "$json" > "$json.added"
+  mv -f "$json.added" "$json"
+}
+
 strip_geosite_name() {
   local file="$1"
   file="${file##*/}"
@@ -111,7 +152,7 @@ prepare_workdir() {
 scan_rules() {
   local rule src
   find "$EXTRACT_DIR" -type f -name 'geosite-*.srs' -exec basename {} \; | sort -u > "$STATE_DIR/available.txt"
-  cat <(list_rules "$DIRECT_LIST") <(list_rules "$DIRECT_ADD_LIST") | sort -u > "$STATE_DIR/direct.selected"
+  list_rules "$DIRECT_LIST" > "$STATE_DIR/direct.selected"
   list_rules "$PROXY_LIST" > "$STATE_DIR/proxy.selected"
 
   if [ -s "$STATE_DIR/direct.selected" ] && [ -s "$STATE_DIR/proxy.selected" ]; then
@@ -230,6 +271,7 @@ build_group() {
     write_empty_source_json "$merged"
   fi
   [ -s "$merged" ] || die "empty merged json: $merged"
+  [ "$group" != "direct" ] || append_direct_added_domains "$merged"
   filter_excluded_domains "$group" "$merged"
 
   log "compile $group-geosite.srs"
