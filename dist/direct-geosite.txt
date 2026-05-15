@@ -1027,7 +1027,6 @@ domain:boscam.com.cn
 domain:bosera.com
 domain:boslife.biz
 domain:boslife.net
-domain:botvip.cn
 domain:bouffalolab.com
 domain:boxdouyin.com
 domain:bplslb.com
@@ -1488,7 +1487,6 @@ domain:cmpassport.com
 domain:cmpay.com
 domain:cmread.com
 domain:cmvideo.cn
-domain:cn
 domain:cn-ha.mqtt.io.mi.com
 domain:cn.pool.ntp.org
 domain:cnb.cool
@@ -2162,7 +2160,6 @@ domain:fliggy.hk
 domain:flyme.cn
 domain:flyme.com
 domain:flymeauto.com
-domain:fm3838.com
 domain:fnjiasu.com
 domain:focus-img.cn
 domain:focus.cn
@@ -3375,7 +3372,6 @@ domain:lanzouy.com
 domain:lanzov.com
 domain:laoban100.com
 domain:lapin365.com
-domain:larsonlimited.com
 domain:las.ac.cn
 domain:latepost.com
 domain:lawyee.org
@@ -5670,8 +5666,6 @@ domain:zofund.com
 domain:zol-img.com.cn
 domain:zol.com.cn
 domain:zongheng.com
-domain:zoom3g.com
-domain:zoomyou.cn
 domain:zqrb.cn
 domain:zs-jlc.com
 domain:zsxq.com

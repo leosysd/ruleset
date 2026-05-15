@@ -9796,14 +9796,7 @@
       ]
     },
     {
-      "domain_suffix": [
-        "botvip.cn",
-        "cn",
-        "fm3838.com",
-        "larsonlimited.com",
-        "zoom3g.com",
-        "zoomyou.cn"
-      ]
+      "domain_suffix": "botvip.cn"
     }
   ]
 }
