@@ -41,7 +41,7 @@ main() {
 	download_updater
 	log "Updating generated rule files..."
 	"$UPDATER" update
-	log "Installing daily cron..."
+	log "Installing weekly cron..."
 	"$UPDATER" install-cron
 	log "Current status:"
 	"$UPDATER" status

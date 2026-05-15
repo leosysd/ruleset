@@ -43,6 +43,8 @@ OpenWrt 路由器可以只下载 `dist/` 内成品：
 
 - `/etc/sing-box/rule-set/direct-geosite.srs`
 - `/etc/sing-box/rule-set/proxy-geosite.srs`
+- `/etc/sing-box/rule-set/direct-geosite.json`
+- `/etc/sing-box/rule-set/proxy-geosite.json`
 - `/etc/mosdns/rule/direct-geosite.txt`
 - `/etc/mosdns/rule/proxy-geosite.txt`
 
