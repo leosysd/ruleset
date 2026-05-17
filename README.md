@@ -59,7 +59,24 @@ OpenWrt 路由器可以只下载 `dist/` 内成品：
 curl -fsSL https://raw.githubusercontent.com/leosysd/ruleset/main/install.sh | sh
 ```
 
-默认 cron 是每周二北京时间 07:45 拉取 GitHub 生成好的 6 个成品文件。
+安装脚本会自动写入这条 cron：
+
+```cron
+45 7 * * 2 SINGBOX_RESTART=1 MOSDNS_RESTART=1 /usr/bin/update-geosite-rules update # 每周自动更新 ruleset 规则集
+```
+
+含义：
+
+- 每周二北京时间 07:45 拉取 GitHub 生成好的 6 个成品文件。
+- 6 个文件全部下载成功后，才会替换正式规则文件。
+- 替换前会保留同名 `.bak` 备份。
+- 更新成功后自动重启 `sing-box` 和 `MosDNS`，让新规则生效。
+
+如果只想手动更新一次，也可以执行：
+
+```bash
+SINGBOX_RESTART=1 MOSDNS_RESTART=1 /usr/bin/update-geosite-rules update
+```
 
 如果路由器没有 `curl`，可以用：
 
