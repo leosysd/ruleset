@@ -111,13 +111,17 @@ update_rules_locked() {
 		sleep 10
 	fi
 
-	if [ "$SINGBOX_RESTART" = "1" ] && [ -x /etc/init.d/sing-box ]; then
-		log "重启 sing-box"
-		/etc/init.d/sing-box restart >> "$LOG_FILE" 2>&1 || die "重启 sing-box 失败"
-	fi
 	if [ "$MOSDNS_RESTART" = "1" ] && [ -x /etc/init.d/mosdns ]; then
 		log "重启 MosDNS"
 		/etc/init.d/mosdns restart >> "$LOG_FILE" 2>&1 || die "重启 MosDNS 失败"
+	fi
+	if [ "$SINGBOX_RESTART" = "1" ] && [ "$MOSDNS_RESTART" = "1" ]; then
+		log "MosDNS 已重启，等待 10 秒后重启 sing-box"
+		sleep 10
+	fi
+	if [ "$SINGBOX_RESTART" = "1" ] && [ -x /etc/init.d/sing-box ]; then
+		log "重启 sing-box"
+		/etc/init.d/sing-box restart >> "$LOG_FILE" 2>&1 || die "重启 sing-box 失败"
 	fi
 
 	rm -rf "$TMP_DIR"
