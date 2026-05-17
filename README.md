@@ -70,7 +70,7 @@ curl -fsSL https://raw.githubusercontent.com/leosysd/ruleset/main/install.sh | s
 - 每周二北京时间 07:45 拉取 GitHub 生成好的 6 个成品文件。
 - 6 个文件全部下载成功后，才会替换正式规则文件。
 - 替换前会保留同名 `.bak` 备份。
-- 更新成功后自动重启 `sing-box` 和 `MosDNS`，让新规则生效。
+- 更新成功后等待 10 秒，再自动重启 `sing-box` 和 `MosDNS`，让新规则生效。
 
 如果只想手动更新一次，也可以执行：
 

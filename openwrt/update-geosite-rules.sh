@@ -106,6 +106,11 @@ update_rules_locked() {
 	install_file "$TMP_DIR/direct-geosite.txt.tmp" "$MOSDNS_DIR/direct-geosite.txt"
 	install_file "$TMP_DIR/proxy-geosite.txt.tmp" "$MOSDNS_DIR/proxy-geosite.txt"
 
+	if [ "$SINGBOX_RESTART" = "1" ] || [ "$MOSDNS_RESTART" = "1" ]; then
+		log "规则文件已替换，等待 10 秒后重启相关服务"
+		sleep 10
+	fi
+
 	if [ "$SINGBOX_RESTART" = "1" ] && [ -x /etc/init.d/sing-box ]; then
 		log "重启 sing-box"
 		/etc/init.d/sing-box restart >> "$LOG_FILE" 2>&1 || die "重启 sing-box 失败"
