@@ -1204,6 +1204,7 @@
         "liblib.art",
         "liblib.cloud",
         "liblib.tv",
+        "linka2a.net",
         "maoxiangai.com",
         "marscode.cn",
         "marscode.com.cn",
@@ -2080,6 +2081,7 @@
         "buke999.com",
         "bx1k.com",
         "c.uaa.iqiyi.com",
+        "ccw.site",
         "cdkeynogap.com",
         "cdncl.net",
         "cgames.com",
@@ -2524,7 +2526,9 @@
         "scescdn.cn",
         "scid.cn",
         "scsentry.cn",
+        "sdo.com",
         "sfacg.com",
+        "shengqugames.com",
         "shoutanjjj.com",
         "shuhai.com",
         "shyxhy.com",
@@ -2613,6 +2617,7 @@
         "xs.cn",
         "xs8.cn",
         "xxsy.net",
+        "xyys.com",
         "xyzcdn.net",
         "xyzfm.link",
         "xyzfm.space",
@@ -2650,6 +2655,7 @@
         "zhulang.com",
         "zhuoyou.com",
         "zhuoyuegame.com",
+        "zjshulong.com",
         "zongheng.com"
       ],
       "domain_regex": "^.+-mihayo\\.akamaized\\.net$"
@@ -2925,6 +2931,8 @@
         "scescdn.cn",
         "scid.cn",
         "scsentry.cn",
+        "sdo.com",
+        "shengqugames.com",
         "shyxhy.com",
         "skydweller.cn",
         "sl916.com",
@@ -2989,7 +2997,8 @@
         "yzyxgame.com",
         "zcjbgame.com",
         "zhuoyou.com",
-        "zhuoyuegame.com"
+        "zhuoyuegame.com",
+        "zjshulong.com"
       ],
       "domain_regex": "^.+-mihayo\\.akamaized\\.net$"
     },

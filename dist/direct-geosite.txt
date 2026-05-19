@@ -1122,6 +1122,7 @@ domain:cctvlibrary.com.cn
 domain:cctvpic.com
 domain:cctvpro.cn
 domain:cctvpro.com.cn
+domain:ccw.site
 domain:cczq.com
 domain:cczq.net
 domain:cd120.com
@@ -3420,6 +3421,7 @@ domain:lietou.com
 domain:linglong.space
 domain:linglonglife.com
 domain:lingshoujia.com
+domain:linka2a.net
 domain:linliyz.com
 domain:linux.do
 domain:linyaps.org.cn
@@ -4324,6 +4326,7 @@ domain:scsentry.cn
 domain:scsjb.cn
 domain:sdgdwljt.com
 domain:sdkclick.mobile.sina.cn
+domain:sdo.com
 domain:seasungames.com
 domain:sec-wiki.com
 domain:seclab.online
@@ -4366,6 +4369,7 @@ domain:shangyexinzhi.com
 domain:shanhaitujian.com
 domain:shareintelli.com
 domain:sharesdk.cn
+domain:shengqugames.com
 domain:shengyi.ai
 domain:shengyizhuanjia.com
 domain:shenjing.com
@@ -5400,6 +5404,7 @@ domain:xxsy.net
 domain:xxtmail.com
 domain:xycdn.com
 domain:xycloud.com
+domain:xyys.com
 domain:xyzcdn.net
 domain:xyzfm.link
 domain:xyzfm.space
@@ -5655,6 +5660,7 @@ domain:zhuoyou.com
 domain:zhuoyuegame.com
 domain:ziroom.com
 domain:ziroomapartment.com
+domain:zjshulong.com
 domain:zjstv.com
 domain:zjytxd.cn
 domain:zjytxp.cn
