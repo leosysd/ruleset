@@ -102,6 +102,7 @@ domain:122.100.in-addr.arpa
 domain:123.100.in-addr.arpa
 domain:123245.com
 domain:123254.com
+domain:123278.com
 domain:123294.com
 domain:1234567.com.cn
 domain:123624.com
@@ -286,6 +287,7 @@ domain:51dzt.com
 domain:51jianxie.cn
 domain:51job.com
 domain:51jobcdn.com
+domain:51pptmoban.com
 domain:51wendang.com
 domain:51zmt.top
 domain:52ppt.com
@@ -667,6 +669,7 @@ domain:amap.com
 domain:amapauto.com
 domain:amazonaws.cn
 domain:amazonaws.com.cn
+domain:amazonwebservices.cn
 domain:amazonwebservices.com.cn
 domain:amazonworkdocs.cn
 domain:amazonworkdocs.com.cn
@@ -697,6 +700,8 @@ domain:anlaiye.com
 domain:anlaiye.com.cn
 domain:anmo.com
 domain:anquanke.com
+domain:antafu.com
+domain:antaq.com
 domain:antfin.com
 domain:antfortune.com
 domain:antgroup-inc.cn
@@ -1707,6 +1712,7 @@ domain:dandanzan.cc
 domain:dangdang.com
 domain:danjuanfunds.com
 domain:dao123.com
+domain:daodoc.com
 domain:daojia.com
 domain:data.mistat.india.xiaomi.com
 domain:data.mistat.intl.xiaomi.com
@@ -2388,6 +2394,7 @@ domain:gneec4.com
 domain:gneec7.com
 domain:go2map.com
 domain:goka.top
+domain:goldhoe.com
 domain:golink.com
 domain:golinkapi.com
 domain:golinkcn.com
@@ -3092,6 +3099,7 @@ domain:jikecdn.com
 domain:jikipedia.com
 domain:jin10.com
 domain:jinantimes.com.cn
+domain:jinchutou.com
 domain:jindidata.com
 domain:jingdong.com
 domain:jingdongjinrong.com
@@ -4301,6 +4309,7 @@ domain:saayaa.com
 domain:saduck.top
 domain:saee.org.cn
 domain:safeskill.cn
+domain:safewk.com
 domain:sagemaker.com.cn
 domain:sandai.net
 domain:sanguosha.com
@@ -4577,6 +4586,7 @@ domain:taobao.net
 domain:taobao.org
 domain:taobaocdn.com
 domain:taobizhong.com
+domain:taodocs.com
 domain:taomee.com
 domain:taopiaopiao.com
 domain:taou.com
@@ -5174,6 +5184,7 @@ domain:weiphone.net
 domain:weixinbridge.com
 domain:weiyun.com
 domain:wenkeju.com
+domain:wenkub.com
 domain:wenmingban.com
 domain:wenshushu.cn
 domain:wenshushu.com
@@ -5259,6 +5270,7 @@ domain:wtzw.com
 domain:wuliao.epro.sogou.com
 domain:wuliujie.cn
 domain:wuliujie.com
+domain:wxaurl.cn
 domain:wxcloudrun.com
 domain:wxgateway.com
 domain:wxlivecdn.com
@@ -5634,6 +5646,7 @@ domain:zhihang100.com
 domain:zhihu-web-analytics.zhihu.com
 domain:zhihu.com
 domain:zhihuishu.com
+domain:zhijidoc.com
 domain:zhimeishe888.com
 domain:zhimg.com
 domain:zhipuai.cn
