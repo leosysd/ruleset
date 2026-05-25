@@ -36,6 +36,13 @@
 Polymarket 规则：
 
 - sing-box source 规则：`https://raw.githubusercontent.com/leosysd/ruleset/main/manual/polymarket-geosite.json`
+- sing-box 二进制规则：`https://raw.githubusercontent.com/leosysd/ruleset/main/manual/polymarket-geosite.srs`
+
+手动规则的 `.srs` 文件由脚本生成，输出到 JSON 所在目录：
+
+```bash
+./scripts/build-manual-srs.sh
+```
 
 ## 每周自动构建
 
@@ -64,7 +71,7 @@ OpenWrt 路由器可以只下载 `dist/` 内成品：
 手动规则不会被安装脚本自动下载，也不会影响上面 6 个默认文件。需要使用时，在 sing-box 主配置里单独引用对应 URL，例如：
 
 ```text
-https://raw.githubusercontent.com/leosysd/ruleset/main/manual/polymarket-geosite.json
+https://raw.githubusercontent.com/leosysd/ruleset/main/manual/polymarket-geosite.srs
 ```
 
 可以安装仓库里的更新脚本：

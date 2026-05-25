@@ -5,6 +5,7 @@ on:
   push:
     paths:
       - "lists/**"
+      - "manual/**"
       - "scripts/**"
       - ".github/workflows/build.yml"
   schedule:
@@ -42,8 +43,11 @@ jobs:
       - name: Build rule outputs
         run: ./scripts/build.sh
 
+      - name: Build manual SRS outputs
+        run: ./scripts/build-manual-srs.sh
+
       - name: Commit updated dist
         uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: "chore: update generated geosite rule sets"
-          file_pattern: "dist/*"
+          file_pattern: "dist/* manual/*.srs"
