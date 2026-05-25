@@ -15,7 +15,7 @@
 
 ## 输出
 
-构建完成后，`dist/` 只保留三组共 6 个成品文件：
+构建完成后，`dist/` 默认生成三组共 6 个成品文件：
 
 - sing-box 二进制规则集
   - `direct-geosite.srs`
@@ -28,6 +28,15 @@
   - `proxy-geosite.json`
 
 `dist/` 不放扫描日志、配置片段或 manifest，避免路由器下载时混淆。
+
+## 手动引用规则
+
+`manual/` 目录用于放单独手动引用的规则，不会被每周构建脚本处理，也不会影响默认 `direct-geosite` / `proxy-geosite`。
+
+Polymarket 规则：
+
+- sing-box source 规则：`https://raw.githubusercontent.com/leosysd/ruleset/main/manual/polymarket-geosite.json`
+- MosDNS 文本规则：`https://raw.githubusercontent.com/leosysd/ruleset/main/manual/polymarket-geosite.txt`
 
 ## 每周自动构建
 
@@ -52,6 +61,12 @@ OpenWrt 路由器可以只下载 `dist/` 内成品：
 - `/etc/mosdns/rule/proxy-geosite.txt`
 
 插件不需要修改 sing-box 主配置，也不需要修改 inbound、outbound、节点或 mosdns 主逻辑。
+
+手动规则不会被安装脚本自动下载，也不会影响上面 6 个默认文件。需要使用时，在 sing-box 主配置里单独引用对应 URL，例如：
+
+```text
+https://raw.githubusercontent.com/leosysd/ruleset/main/manual/polymarket-geosite.json
+```
 
 可以安装仓库里的更新脚本：
 
