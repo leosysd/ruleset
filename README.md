@@ -36,7 +36,6 @@
 Polymarket 规则：
 
 - sing-box source 规则：`https://raw.githubusercontent.com/leosysd/ruleset/main/manual/polymarket-geosite.json`
-- MosDNS 文本规则：`https://raw.githubusercontent.com/leosysd/ruleset/main/manual/polymarket-geosite.txt`
 
 ## 每周自动构建
 
