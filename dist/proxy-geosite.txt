@@ -1228,6 +1228,7 @@ domain:gearstactics.com
 domain:geller-pa.googleapis.com
 domain:gemini.google
 domain:gemini.google.com
+domain:gemini.gstatic.com
 domain:generativeai.google
 domain:generativelanguage.googleapis.com
 domain:gerritcodereview.com
