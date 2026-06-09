@@ -148,6 +148,7 @@
         "claude.ai",
         "claude.com",
         "claudemcpclient.com",
+        "claudemcpcontent.com",
         "claudeusercontent.com"
       ]
     },
@@ -1334,7 +1335,6 @@
         "2mdn-cn.net",
         "2mdn.net",
         "466453.com",
-        "abc.xyz",
         "adgoogle.net",
         "admeld.com",
         "admob-cn.com",
@@ -1819,7 +1819,6 @@
         "gstatic.com",
         "gstaticcnapps.cn",
         "gsuite.com",
-        "gv.com",
         "gvt0.com",
         "gvt1-cn.com",
         "gvt1.com",
@@ -1928,6 +1927,7 @@
         "stxmosquitoproject.net",
         "stxmosquitoproject.org",
         "synergyse.com",
+        "tenor.com",
         "tensorflow.org",
         "tfhub.dev",
         "thecleversense.com",
@@ -1946,13 +1946,11 @@
         "v8.dev",
         "v8project.org",
         "velostrata.com",
-        "verily.com",
         "verilylifesciences.com",
         "verilystudyhub.com",
         "verilystudywatch.com",
         "verilystudywatch.org",
         "wallet.com",
-        "waymo.com",
         "waze.com",
         "web.app",
         "web.dev",
@@ -3153,6 +3151,7 @@
     {
       "domain_suffix": [
         "notion-static.com",
+        "notion-status.com",
         "notion.com",
         "notion.new",
         "notion.site",
@@ -3212,6 +3211,7 @@
         "crixet.com",
         "host.livekit.cloud",
         "oaistatic.com",
+        "oaistatsig.com",
         "oaiusercontent.com",
         "openai.com",
         "openai.com.cdn.cloudflare.net",
@@ -3377,6 +3377,7 @@
       ]
     },
     {
+      "domain": "www.quora.com.cdn.cloudflare.net",
       "domain_suffix": [
         "poe.com",
         "poecdn.net",
@@ -3584,6 +3585,7 @@
         "telesco.pe",
         "tg.dev",
         "ton.org",
+        "toncenter.com",
         "tx.me",
         "usercontent.dev"
       ]
