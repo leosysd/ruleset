@@ -38,6 +38,7 @@ domain:20thcenturystudios.jp
 domain:21vbc.com
 domain:21vbluecloud.com
 domain:21vbluecloud.net
+domain:265.com
 domain:2mdn-cn.net
 domain:2mdn.net
 domain:2o7.net
@@ -582,6 +583,7 @@ domain:cortanaskills.com
 domain:cosmosdb.info
 domain:cosmosdb.net
 domain:cotolia.com
+domain:crashlytics.com
 domain:crates.io
 domain:creativecloud.com
 domain:creativesdk.com
@@ -754,6 +756,7 @@ domain:dontbubble.us
 domain:donttrack.us
 domain:doom.com
 domain:dot.net
+domain:dota2.com
 domain:dota2.wmsj.cn
 domain:dotfacebook.com
 domain:dotfacebook.net
@@ -1249,6 +1252,7 @@ domain:ggpht.cn
 domain:ggpht.com
 domain:gh.io
 domain:ghcr.io
+domain:ghe.com
 domain:gigjam.com
 domain:gipscorp.com
 domain:git.io
@@ -2538,6 +2542,7 @@ domain:steam.ru.qtlglb.com
 domain:steam.tv
 domain:steamchina.com
 domain:steamcommunity.com
+domain:steamconnecttest.com
 domain:steamcontent.com
 domain:steamdeck.com
 domain:steamgames.com
@@ -2695,6 +2700,7 @@ domain:usvimosquitoproject.com
 domain:uwpcommunitytoolkit.com
 domain:v8.dev
 domain:v8project.org
+domain:valve.net
 domain:valvesoftware.com
 domain:velostrata.com
 domain:verilylifesciences.com
@@ -3033,7 +3039,6 @@ domain:ytimg.com
 domain:zuckerberg.com
 domain:zuckerberg.net
 domain:zukunftswerkstatt.de
-full:265.com
 full:a4e8s8k3.map2.ssl.hwcdn.net
 full:adeventtracker.spotify.com
 full:adobeereg.com
@@ -3292,6 +3297,7 @@ full:steampipe-kr.akamaized.net
 full:steampipe-partner.akamaized.net
 full:steampipe.akamaized.net
 full:steamstore-a.akamaihd.net
+full:steamugcquincy.blob.core.windows.net
 full:steamusercontent-a.akamaihd.net
 full:steamuserimages-a.akamaihd.net
 full:steamvideo-a.akamaihd.net
@@ -3326,6 +3332,7 @@ full:www.destinationurl.com
 full:www.gstatic.com
 full:www.microsoft.com
 full:www.pxcc.com
+full:www.recaptcha-cn.net
 full:www.recaptcha.net
 full:xz.pphimalayanrt.com
 regexp:(^|\.)apiproxy-device-prod-nlb-.+\.amazonaws\.com$

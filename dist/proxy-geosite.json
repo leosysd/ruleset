@@ -1076,6 +1076,7 @@
         "dependabot.com",
         "gh.io",
         "ghcr.io",
+        "ghe.com",
         "git.io",
         "github.ai",
         "github.blog",
@@ -1215,7 +1216,6 @@
     },
     {
       "domain": [
-        "265.com",
         "alt1-mtalk.google.com",
         "alt2-mtalk.google.com",
         "alt3-mtalk.google.com",
@@ -1311,6 +1311,7 @@
         "www.destinationurl.com",
         "www.gstatic.com",
         "www.pxcc.com",
+        "www.recaptcha-cn.net",
         "www.recaptcha.net"
       ],
       "domain_suffix": [
@@ -1332,6 +1333,7 @@
         "0emm.com",
         "1e100.net",
         "1ucrs.com",
+        "265.com",
         "2mdn-cn.net",
         "2mdn.net",
         "466453.com",
@@ -1481,6 +1483,7 @@
         "coova.com",
         "coova.net",
         "coova.org",
+        "crashlytics.com",
         "crossmediapanel.com",
         "crr.com",
         "cs4hs.com",
@@ -2674,6 +2677,7 @@
         "gfx.ms",
         "gh.io",
         "ghcr.io",
+        "ghe.com",
         "gigjam.com",
         "git.io",
         "github.ai",
@@ -3521,6 +3525,7 @@
         "steampipe-partner.akamaized.net",
         "steampipe.akamaized.net",
         "steamstore-a.akamaihd.net",
+        "steamugcquincy.blob.core.windows.net",
         "steamusercontent-a.akamaihd.net",
         "steamuserimages-a.akamaihd.net",
         "steamvideo-a.akamaihd.net",
@@ -3530,6 +3535,7 @@
         "client-update.queniuqe.com",
         "csgo.wmsj.cn",
         "dl.steam.clngaa.com",
+        "dota2.com",
         "dota2.wmsj.cn",
         "edge.steam-dns.top.comcast.net",
         "gstore.val.manlaxy.com",
@@ -3551,6 +3557,7 @@
         "steam.tv",
         "steamchina.com",
         "steamcommunity.com",
+        "steamconnecttest.com",
         "steamcontent.com",
         "steamdeck.com",
         "steamgames.com",
@@ -3561,6 +3568,7 @@
         "steamstatic.com.8686c.com",
         "steamusercontent.com",
         "underlords.com",
+        "valve.net",
         "valvesoftware.com",
         "wmsjsteam.com"
       ]
