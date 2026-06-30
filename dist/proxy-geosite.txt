@@ -526,6 +526,7 @@ domain:chrome.com
 domain:chromebook.com
 domain:chromecast.com
 domain:chromeos.dev
+domain:chromestatus.com
 domain:chromium.org
 domain:chronicle.security
 domain:chroniclesec.com
@@ -842,6 +843,7 @@ domain:espn.com
 domain:espn.net
 domain:espncdn.com
 domain:espnqa.com
+domain:exp-tas.com
 domain:expresswifi.com
 domain:ext-twitch.tv
 domain:faacebok.com
@@ -1261,6 +1263,7 @@ domain:gipscorp.com
 domain:git.io
 domain:github.ai
 domain:github.blog
+domain:github.career
 domain:github.com
 domain:github.community
 domain:github.dev
@@ -1815,6 +1818,7 @@ domain:labs.google
 domain:labs.google.com
 domain:lanternal.com
 domain:latampartneruniversity.com
+domain:lifeatspotify.com
 domain:like.com
 domain:lin.ee
 domain:line-apps-beta.com
@@ -2498,6 +2502,7 @@ domain:spotifycdn.net
 domain:spotifycharts.com
 domain:spotifycodes.com
 domain:spotifyforbrands.com
+domain:spotifyforvendors.com
 domain:spotifyjobs.com
 domain:spreadprivacy.com
 domain:sprinklesapp.com
@@ -2746,7 +2751,10 @@ domain:vsallin.net
 domain:vsassets.io
 domain:vscode-cdn.net
 domain:vscode-unpkg.net
+domain:vscode-webview.net
 domain:vscode.dev
+domain:vscodeedu.app
+domain:vscodeedu.com
 domain:w.wiki
 domain:wa.me
 domain:wallet.com
@@ -3139,7 +3147,6 @@ full:d6tizftlrpuof.cloudfront.net
 full:daily-cloudcode-pa.googleapis.com
 full:dartsearch-cn.net
 full:ddacn6pr5v0tl.cloudfront.net
-full:default.exp-tas.com
 full:developer.microsoft.com
 full:dg-meta.video.google.com
 full:dgeft87wbj63p.cloudfront.net

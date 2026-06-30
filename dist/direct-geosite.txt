@@ -352,6 +352,7 @@ domain:71.am
 domain:71acg.com
 domain:71acg.net
 domain:71edge.com
+domain:71shi.net
 domain:72.100.in-addr.arpa
 domain:72whys.com
 domain:73.100.in-addr.arpa
@@ -462,7 +463,6 @@ domain:acgvideo.com
 domain:acimg.cn
 domain:acjs.aliyun.com
 domain:acloudrender.com
-domain:acplay.net
 domain:activity-wbsj.com
 domain:activity-zhendingtech.com
 domain:ad.api.3g.youku.com
@@ -771,6 +771,7 @@ domain:ap-singapore.myqcloud.com
 domain:ap-singapore.tencentcos.cn
 domain:ap-singapore.tencentcos.com
 domain:ap-singapore.tencentcos.com.cn
+domain:ap-southeast-1.aliyuncs.com
 domain:ap-southeast-1.myhuaweicloud.com
 domain:ap-southeast-2.myhuaweicloud.com
 domain:ap-southeast-201.myhuaweicloud.com
@@ -1554,6 +1555,8 @@ domain:cmpay.com
 domain:cmread.com
 domain:cmvideo.cn
 domain:cn-ha.mqtt.io.mi.com
+domain:cn-hangzhou.aliyuncs.com
+domain:cn-shanghai.aliyuncs.com
 domain:cn.pool.ntp.org
 domain:cnb.cool
 domain:cnbeta.com
@@ -1775,7 +1778,6 @@ domain:daheapp.com
 domain:dahebao.cn
 domain:damai.cn
 domain:dandan818.com
-domain:dandanplay.com
 domain:dandanvoice.com
 domain:dandanzan.cc
 domain:dangdang.com
@@ -2018,6 +2020,7 @@ domain:duapps.com
 domain:duba.com
 domain:duba.net
 domain:dui.ai
+domain:duifene.com
 domain:duiopen.com
 domain:duiou.com.cn
 domain:duitang.com
@@ -2504,6 +2507,7 @@ domain:golinkapi.com
 domain:golinkcn.com
 domain:gongqingyun.cn
 domain:gongyi.xin
+domain:goodq.top
 domain:goofish.com
 domain:goproxy.cn
 domain:goproxy.io
@@ -2603,6 +2607,7 @@ domain:haoso.com
 domain:haosou.com
 domain:haosou.com.cn
 domain:haosou.net
+domain:haowenti.net
 domain:haowu.link
 domain:happyhlddz.com
 domain:harmonyos.com
@@ -3474,6 +3479,7 @@ domain:kunlunta.com
 domain:kunlunvi.com
 domain:kunlunwe.com
 domain:kurobbs.com
+domain:kurogame-service.com
 domain:kurogame.com
 domain:kurogame.net
 domain:kurogame.xyz
@@ -3831,6 +3837,7 @@ domain:mipcache.bdstatic.com
 domain:mipcdn.com
 domain:miraclevision.com
 domain:mirrors.yun-idc.com
+domain:misaka-net.top
 domain:misc.in.duokanbox.com
 domain:missevan.com
 domain:missjia.net
@@ -3870,6 +3877,7 @@ domain:mogujie.com
 domain:moji.com
 domain:mojichina.com
 domain:mojidict.com
+domain:moliranran.com
 domain:momo.dm
 domain:momo5188.com
 domain:momomall.com.tw
@@ -4078,6 +4086,7 @@ domain:oceancloudapi.com
 domain:ocfund.cn
 domain:ocwms.com
 domain:oeeee.com
+domain:oend.net
 domain:offcn.com
 domain:ofweek.com
 domain:okjike.com
@@ -4239,6 +4248,7 @@ domain:pl.youku.com
 domain:playcool.com
 domain:plbslog.umeng.com
 domain:plex.direct
+domain:pljzy.top
 domain:pmir.3g.qq.com
 domain:pmphmooc.com
 domain:pn1waq.com
@@ -4364,6 +4374,7 @@ domain:qingfuwucdn.com
 domain:qingque.cn
 domain:qingstor.com
 domain:qingting.fm
+domain:qingtingai.net
 domain:qingtingtrip.com
 domain:qingzhouip.com
 domain:qiniu.com
@@ -4426,6 +4437,7 @@ domain:qunarzz.com
 domain:quyaoya.com
 domain:qweather.com
 domain:qweather.net
+domain:qweatherapi.com
 domain:qwen.ai
 domain:qwenlm.ai
 domain:qwps.cn
@@ -5002,6 +5014,7 @@ domain:ti.com.cn
 domain:tiancity.com
 domain:tiancitycdn.com
 domain:tiangong.cn
+domain:tianhw.top
 domain:tianjimedia.com
 domain:tianpeng.com
 domain:tianshucup.com
@@ -5366,6 +5379,7 @@ domain:vrzwk.com
 domain:vrzwk.net
 domain:vrzwk.top
 domain:vsread.com
+domain:vtdd.vip
 domain:vvstc.com
 domain:vxo7tu.com
 domain:vzuu.com
@@ -5419,6 +5433,7 @@ domain:weibopay.com
 domain:weilaiyunxiao.com
 domain:weiphone.net
 domain:weishi.com
+domain:weixin.com
 domain:weixinbridge.com
 domain:weiyun.com
 domain:wenkeju.com
@@ -5892,6 +5907,7 @@ domain:zggbdszt.cn
 domain:zggbdszt.com.cn
 domain:zggbdszt.net.cn
 domain:zggqzp.com
+domain:zggx100.com
 domain:zgjsks.com
 domain:zgjtb.com
 domain:zgsydw.com
@@ -5996,6 +6012,7 @@ domain:zygbdszt.net.cn
 domain:zyhe.com.cn
 domain:zysn.net
 domain:zz.bdstatic.com
+full:account-cn.alibabacloud.com
 full:ads.x5.ru
 full:ads.x5media.ru
 full:ads3-normal-hl.zijieapi.com
@@ -6003,8 +6020,10 @@ full:ads3-normal.zijieapi.com
 full:ads5-normal-hl.zijieapi.com
 full:ads5-normal.zijieapi.com
 full:ai.zhaomi.cn
+full:api.alibabacloud.com
 full:apilog-web.acfun.cn
 full:asusrouter.com
+full:cn.alibabacloud.com
 full:cueme-api.quark.cn
 full:end-api.shallow.ink
 full:end.shallow.ink
@@ -6065,6 +6084,7 @@ full:rtlog5-applog.fqnovel.com
 full:sentry.x5.ru
 full:setmeup.arubanetworks.com
 full:ss.bjmu.edu.cn
+full:status.alibabacloud.com
 full:study.163.com
 full:time.amazonaws.cn
 full:time.izatcloud.net
