@@ -1334,6 +1334,7 @@
         "yoma.cn",
         "yuanbao.tencent.com",
         "yuanqi.tencent.com",
+        "yzsgo.com",
         "z.ai",
         "zhiexa.com",
         "zhipuai.cn",
@@ -1721,6 +1722,7 @@
         "unityads.unity.cn",
         "unityads.unitychina.cn",
         "unitychina.cn",
+        "weboss.hk",
         "wegamedeveloper.com",
         "weixinbridge.com",
         "weui.io",
@@ -1815,6 +1817,7 @@
         "fenbike.com",
         "fenbilantian.cn",
         "fenbilantian.com",
+        "gaojidata.com",
         "gaokao.com",
         "gatzs.com.cn",
         "gfbzb.cn",
@@ -1824,6 +1827,7 @@
         "gfbzb.net",
         "gk100.com",
         "guojibk.com",
+        "gzasc.com",
         "haofenshu.com",
         "hjapi.com",
         "hjfile.cn",
@@ -2716,6 +2720,8 @@
         "qqmusic.com",
         "qtfm.cn",
         "quehu.com",
+        "qwapp.top",
+        "qwdjapp.com",
         "qy.net",
         "qznovel.com",
         "qznovelpic.com",
@@ -2732,6 +2738,9 @@
         "robloxdev.cn",
         "roco.qq.com",
         "rongshuxia.com",
+        "rrmj.plus",
+        "rrsp.app",
+        "rrsp.com.cn",
         "s-adashx.ut.youku.com",
         "sanguosha.com",
         "sao.cn",
@@ -2878,6 +2887,7 @@
         "yeyou.com",
         "yeyoucdn.com",
         "ygduoyi.com",
+        "yichengwlkj.com",
         "yingxiong.com",
         "yiyouliao.com",
         "yjwujian.cn",
@@ -7157,7 +7167,10 @@
       ]
     },
     {
-      "domain_suffix": "manhuagui.com"
+      "domain_suffix": [
+        "manhuagui.com",
+        "mhgui.com"
+      ]
     },
     {
       "domain_suffix": [

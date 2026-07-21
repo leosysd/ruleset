@@ -8,7 +8,6 @@ domain:.dclk
 domain:.gbiz
 domain:.gle
 domain:.gmail
-domain:.goo
 domain:.goog
 domain:.google
 domain:.guge
@@ -272,6 +271,7 @@ domain:azuredns-prd.info
 domain:azuredns-prd.org
 domain:azureedge-test.net
 domain:azureedge.net
+domain:azureedge.us
 domain:azurefd.net
 domain:azurehdinsight.cn
 domain:azureiotcentral.com
@@ -518,6 +518,7 @@ domain:charticulator.com
 domain:chat.com
 domain:chatgpt.com
 domain:chatgpt.livekit.cloud
+domain:chatgpt.site
 domain:chickstagram.com
 domain:china-facebook.com
 domain:chinacloud-mobile.cn
@@ -582,6 +583,7 @@ domain:cookiechoices.org
 domain:coova.com
 domain:coova.net
 domain:coova.org
+domain:copilot-stg.com
 domain:copilot.com
 domain:cortanaanalytics.com
 domain:cortanaskills.com
@@ -1166,6 +1168,7 @@ domain:fitbit.com
 domain:fixtracking.com
 domain:flightsimulator.com
 domain:flipwithsurface.com
+domain:flow.google
 domain:fluidpreview.com
 domain:flutter.dev
 domain:flutterapp.com
@@ -3251,10 +3254,6 @@ full:performanceparameters.googleapis.com
 full:pki-goog.l.google.com
 full:ppl-ai-file-upload.s3.amazonaws.com
 full:pplx-res.cloudinary.com
-full:practivate.adobe
-full:practivate.adobe.ipp
-full:practivate.adobe.newoa
-full:practivate.adobe.ntp
 full:prod-controlbe.floonet.goog
 full:prod-databe.floonet.goog
 full:prod.databe.floonet.goog

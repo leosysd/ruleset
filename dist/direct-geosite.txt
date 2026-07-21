@@ -2506,6 +2506,7 @@ domain:ganji.com
 domain:ganjiangvpn.com
 domain:ganjistatic1.com
 domain:gaode.com
+domain:gaojidata.com
 domain:gaokao.com
 domain:gatzs.com.cn
 domain:gcable.com.cn
@@ -2657,6 +2658,7 @@ domain:gwm.com.cn
 domain:gxtv.cn
 domain:gxxmt.com
 domain:gyzq.com.cn
+domain:gzasc.com
 domain:gzctyiptv.cn
 domain:gzlzfm.com
 domain:gztv.com
@@ -3804,6 +3806,7 @@ domain:mamayz.com
 domain:mangacopy.com
 domain:mangafuna.xyz
 domain:mangafunb.fun
+domain:manhuagui.com
 domain:maoer.com
 domain:maoercdn.com
 domain:maoxiangai.com
@@ -3870,6 +3873,7 @@ domain:mfuns.cn
 domain:mfuns.net
 domain:mgslb.com
 domain:mgtv.com
+domain:mhgui.com
 domain:mhystatic.com
 domain:mhyurl.cn
 domain:mi-dun.com
@@ -4563,6 +4567,8 @@ domain:qunar.com
 domain:qunarcdn.com
 domain:qunarzz.com
 domain:quyaoya.com
+domain:qwapp.top
+domain:qwdjapp.com
 domain:qweather.com
 domain:qweather.net
 domain:qweatherapi.com
@@ -4621,6 +4627,9 @@ domain:roomeet.cn
 domain:route53.cn
 domain:router.ctc
 domain:routewize.com
+domain:rrmj.plus
+domain:rrsp.app
+domain:rrsp.com.cn
 domain:rs.sinajs.cn
 domain:rtx.com.cn
 domain:ru-moscow-1.myhuaweicloud.com
@@ -5629,6 +5638,7 @@ domain:webank.com
 domain:webankcdn.net
 domain:webgame163.com
 domain:webnovel.com
+domain:weboss.hk
 domain:wechat.com
 domain:wechatpay.cn
 domain:wegame.com
@@ -5944,6 +5954,7 @@ domain:yhd.com
 domain:yhfund.com.cn
 domain:yicai.com
 domain:yiche.com
+domain:yichengwlkj.com
 domain:yidianliulan.cn
 domain:yidianliulan.com
 domain:yihaikerry.net.cn
@@ -6094,6 +6105,7 @@ domain:yysls.cn
 domain:yystatic.com
 domain:yystv.cn
 domain:yzcdn.cn
+domain:yzsgo.com
 domain:yzwb.net
 domain:yzyxgame.com
 domain:z-bank.com
