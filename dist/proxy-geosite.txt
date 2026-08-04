@@ -57,6 +57,7 @@ domain:acheter-followers-instagram.com
 domain:acheterdesfollowersinstagram.com
 domain:acheterfollowersinstagram.com
 domain:acrobat.com
+domain:actifio.com
 domain:adaptivecards.io
 domain:adbecrsl.com
 domain:adgoogle.net
@@ -157,6 +158,7 @@ domain:api.ai
 domain:apigee.com
 domain:apihub-internal.cn
 domain:apisof.net
+domain:app-ads-services.com
 domain:app-analytics-services-att.com
 domain:app-analytics-services.com
 domain:app-measurement-cn.com
@@ -1281,6 +1283,7 @@ domain:githubhackathon.com
 domain:githubnext.com
 domain:githubpreview.dev
 domain:githubstatus.com
+domain:githubsupport.com
 domain:githubuniverse.com
 domain:githubusercontent.com
 domain:gitlab-static.net
@@ -1577,6 +1580,7 @@ domain:graphengine.io
 domain:gridaware.app
 domain:grok.com
 domain:grok.x.com
+domain:grokipedia.com
 domain:groups.com
 domain:gsrc.io
 domain:gstatic.cn
@@ -2151,6 +2155,7 @@ domain:ngeo.com
 domain:nhncorp.jp
 domain:nomadlandmovie.ch
 domain:nomulus.foo
+domain:notebook.google.com
 domain:notebooklm.google
 domain:notebooklm.google.com
 domain:notion-static.com
@@ -2226,6 +2231,7 @@ domain:opensourceinsights.dev
 domain:openthread.io
 domain:opentranslatorstothings.org
 domain:openweave.io
+domain:openxla.org
 domain:opinionjournal.com
 domain:opticsforthecloud.net
 domain:orbitera.com
