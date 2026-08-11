@@ -555,6 +555,7 @@ domain:adv.app.qq.com
 domain:adv.sec.intl.miui.com
 domain:adv.sec.miui.com
 domain:adver.qq.com
+domain:adx.36kr.com
 domain:adx.xiaodutv.com
 domain:ae-ad-1.myhuaweicloud.com
 domain:ae-rus.net
@@ -593,8 +594,42 @@ domain:aipage.com
 domain:aiqicha.baidu.com
 domain:aiqicha.cn
 domain:aiqicha.com
+domain:airchina.ae
+domain:airchina.at
+domain:airchina.ca
+domain:airchina.ch
+domain:airchina.cn
+domain:airchina.co.id
+domain:airchina.co.in
+domain:airchina.co.th
+domain:airchina.co.uk
+domain:airchina.com
+domain:airchina.com.au
+domain:airchina.com.br
 domain:airchina.com.cn
+domain:airchina.com.my
+domain:airchina.com.ph
+domain:airchina.com.tw
+domain:airchina.de
+domain:airchina.dk
+domain:airchina.es
+domain:airchina.fr
+domain:airchina.gr
+domain:airchina.hk
+domain:airchina.hu
+domain:airchina.it
+domain:airchina.jp
+domain:airchina.kr
+domain:airchina.nz
+domain:airchina.se
+domain:airchina.sg
+domain:airchina.us
+domain:airchina.vn
 domain:airchinacargo.com
+domain:airchinagroup.com
+domain:airchinalimited.cn
+domain:airchinalimited.com
+domain:airchinalimited.com.cn
 domain:aireads.cn
 domain:airitilibrary.cn
 domain:airnut.com
@@ -1201,6 +1236,7 @@ domain:cbern.com.cn
 domain:cbinews.com
 domain:cbjq.com
 domain:cbjs.baidu.com
+domain:cbn.cn
 domain:ccb-life.com.cn
 domain:ccb.cn
 domain:ccb.com
@@ -1436,6 +1472,7 @@ domain:chinahr.com
 domain:chinalions.com
 domain:chinalive.com
 domain:chinamobile.com
+domain:chinamobiledevice.com
 domain:chinamobileltd.com
 domain:chinanature.com.cn
 domain:chinanews.com
@@ -1468,7 +1505,6 @@ domain:chinaz.com
 domain:chinaz.net
 domain:chinesemooc.org
 domain:chizhik.club
-domain:chn.cn
 domain:chndoi.org
 domain:chntel.com
 domain:chrstatic.com
@@ -1620,6 +1656,7 @@ domain:cmbwinglungbank.com
 domain:cmcc-cs.cn
 domain:cmcm.com
 domain:cmcmcdn.com
+domain:cmdcxls.com
 domain:cmf.biz
 domain:cmf.ltd
 domain:cmfchina.com
@@ -1632,8 +1669,12 @@ domain:cmpassport.com
 domain:cmpay.com
 domain:cmread.com
 domain:cmvideo.cn
+domain:cn-beijing.aliyuncs.com
+domain:cn-chengdu.aliyuncs.com
+domain:cn-guangzhou.aliyuncs.com
 domain:cn-ha.mqtt.io.mi.com
 domain:cn-hangzhou.aliyuncs.com
+domain:cn-hongkong.aliyuncs.com
 domain:cn-shanghai.aliyuncs.com
 domain:cn.pool.ntp.org
 domain:cnb.cool
@@ -1848,6 +1889,7 @@ domain:cupid.iqiyi.com
 domain:cww.net.cn
 domain:cxbiji.com
 domain:cxmt.com
+domain:cxzx10086.cn
 domain:cy.com
 domain:cyol.com
 domain:cyol.net
@@ -2085,6 +2127,7 @@ domain:douyinact.net
 domain:douyincdn.com
 domain:douyincloud.net
 domain:douyincloud.run
+domain:douyinec.com
 domain:douyinfe.com
 domain:douyinliving.com
 domain:douyinpay.com
@@ -2366,6 +2409,7 @@ domain:fjsen.com
 domain:flgff.cn
 domain:fliggy.com
 domain:fliggy.hk
+domain:fly-airchina.com
 domain:flyme.cn
 domain:flyme.com
 domain:flymeauto.com
@@ -2486,6 +2530,7 @@ domain:futusg.com
 domain:futustatic.com
 domain:fututrade.com
 domain:fuwai.com
+domain:fxltsbl.com
 domain:fxt365.com
 domain:fyeds.com
 domain:fyeds0.com
@@ -2836,6 +2881,7 @@ domain:honorfile.com
 domain:hoopchina.com.cn
 domain:hophing.cn
 domain:hophing.com.cn
+domain:hotfix-api.aliyuncs.com
 domain:hotread.com
 domain:houyicaiji.com
 domain:howbuy.com
@@ -3593,7 +3639,6 @@ domain:kuaikanmanhua.com
 domain:kuaipa.net
 domain:kuaishou.cn
 domain:kuaishou.com
-domain:kuaishou.httpdns.pro
 domain:kuaishouapps.com
 domain:kuaishoupay.com
 domain:kuaishouzt.com
@@ -3744,6 +3789,7 @@ domain:liebao.cn
 domain:liepin.com
 domain:lietou-static.com
 domain:lietou.com
+domain:lifexue.com
 domain:linglong.space
 domain:linglonglife.com
 domain:lingshoujia.com
@@ -4405,6 +4451,9 @@ domain:phicomm.me
 domain:philanthropy.xin
 domain:phira.cn
 domain:phoenixcenter.cn
+domain:phoenixmiles.cn
+domain:phoenixmiles.com
+domain:phoenixmiles.com.cn
 domain:php.cn
 domain:phpcomposer.com
 domain:phpweblog.net
@@ -4659,6 +4708,7 @@ domain:rednet.cn
 domain:rednote.com
 domain:rednote.com.my
 domain:rednotecdn.com
+domain:registry.aliyuncs.com
 domain:reke.at.sohu.com
 domain:renren-inc.com
 domain:renren.com
@@ -5412,6 +5462,7 @@ domain:ugslb2.net
 domain:uhasadmin.com
 domain:ulogs.umeng.com
 domain:ulogs.umengcloud.com
+domain:ulpay.com
 domain:ultimatemusic.cn
 domain:ultracachenode.com
 domain:um.run
@@ -6224,6 +6275,7 @@ domain:zdnscloud.info
 domain:zdnscloud.net
 domain:zdnscloud.net.cn
 domain:zdnscloud.org.cn
+domain:zdsdp.com
 domain:zdzq.com.cn
 domain:zealer.com
 domain:zebracdn.com

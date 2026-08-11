@@ -31,6 +31,7 @@ domain:1drv.com
 domain:1drv.ms
 domain:1e100.net
 domain:1ucrs.com
+domain:20thcenturystudios.com
 domain:20thcenturystudios.com.au
 domain:20thcenturystudios.com.br
 domain:20thcenturystudios.jp
@@ -48,6 +49,7 @@ domain:aadrm.cn
 domain:aadrm.com
 domain:abc-studios.com
 domain:abc.com
+domain:abcnews.com
 domain:aboutfacebook.com
 domain:accessfacebookfromschool.com
 domain:acebooik.com
@@ -185,6 +187,7 @@ domain:archiveofourown.org
 domain:area120.com
 domain:aria.ms
 domain:artstation.com
+domain:artstationmedia.com
 domain:askfacebook.net
 domain:askfacebook.org
 domain:askubuntu.com
@@ -298,6 +301,7 @@ domain:babyzone.com
 domain:bahamut.akamaized.net
 domain:bahamut.com.tw
 domain:bamgrid.com
+domain:bamtech.net
 domain:bandpage.com
 domain:bard.google.com
 domain:baselinestudy.com
@@ -495,7 +499,6 @@ domain:buyingfacebooklikes.com
 domain:bwbx.io
 domain:byspotify.com
 domain:bytedapm.com
-domain:byteoversea.com
 domain:c-msedge.net
 domain:callersbane.com
 domain:callhulu.com
@@ -626,6 +629,7 @@ domain:demdex.net
 domain:dependabot.com
 domain:deps.dev
 domain:deps.info
+domain:detpress.com
 domain:developria.com
 domain:devopsassessment.net
 domain:devopsms.com
@@ -702,7 +706,9 @@ domain:disney.ro
 domain:disney.ru
 domain:disney.se
 domain:disney.sg
+domain:disneyaccount.com
 domain:disneyadsales.com
+domain:disneyanimation.com
 domain:disneyarena.com
 domain:disneyaulani.com
 domain:disneybaby.com
@@ -717,6 +723,7 @@ domain:disneyinternational.com
 domain:disneyinternationalhd.com
 domain:disneyjunior.com
 domain:disneyjuniortreataday.com
+domain:disneylandparis.com
 domain:disneylatino.com
 domain:disneymagicmoments.co.il
 domain:disneymagicmoments.co.uk
@@ -738,12 +745,13 @@ domain:disneynow.com
 domain:disneypeoplesurveys.com
 domain:disneyplus.bn5x.net
 domain:disneyplus.com
-domain:disneyplus.com.ssl.sc.omtrdc.net
+domain:disneyprivacycenter.com
 domain:disneyredirects.com
 domain:disneysrivieraresort.com
 domain:disneystore.com
 domain:disneystreaming.com
 domain:disneysubscription.com
+domain:disneytermsofuse.com
 domain:disneytickets.co.uk
 domain:disneyturkiye.com.tr
 domain:disneytvajobs.com
@@ -1208,6 +1216,7 @@ domain:freefacebook.com
 domain:freefacebook.net
 domain:freefacebookads.net
 domain:freefblikes.com
+domain:freeform.com
 domain:freehulu.com
 domain:freindfeed.com
 domain:friendbook.info
@@ -1224,6 +1233,8 @@ domain:fuchsia.dev
 domain:fundraisingwithfacebook.com
 domain:funnyfacebook.org
 domain:futureofbusinesssurvey.org
+domain:fxnetwork.com
+domain:fxnetworks.com
 domain:g-tun.com
 domain:g.cn
 domain:g.co
@@ -1665,6 +1676,7 @@ domain:hindiweb.com
 domain:hololens.com
 domain:homebox.com
 domain:homeboxoffice.com
+domain:hongkongdisneyland.com
 domain:hooloo.tv
 domain:hoolu.com
 domain:hoolu.tv
@@ -1861,6 +1873,7 @@ domain:livingyourambition.com
 domain:lnstagram-help.com
 domain:login-account.net
 domain:londonmithraeum.com
+domain:lucasfilm.com
 domain:lync.cn
 domain:m12.vc
 domain:macromedia.com
@@ -2320,6 +2333,7 @@ domain:pinterest.vn
 domain:pinterestmail.com
 domain:pittpatt.com
 domain:pixapp.net
+domain:pixar.com
 domain:pixate.com
 domain:pixel.facebook.com
 domain:pixiv-recommend.net
@@ -2428,7 +2442,6 @@ domain:revolv.com
 domain:ridepenguin.com
 domain:robinfrontend-pa.googleapis.com
 domain:roborecall.com
-domain:rocksdb.org
 domain:run.app
 domain:rust-lang.org
 domain:rustup.rs
@@ -2447,12 +2460,14 @@ domain:scene7.com
 domain:schemer.com
 domain:screenwisetrends.com
 domain:screenwisetrendspanel.com
+domain:searchlightpictures.com
 domain:serverfault.com
 domain:serverlesslibrary.net
 domain:sfbassets.com
 domain:sfbassets.net
 domain:sfx.ms
 domain:shadowcomplex.com
+domain:shanghaidisneyresort.com
 domain:sharepoint.cn
 domain:sharepoint.com
 domain:sharepointonline.com
@@ -2632,6 +2647,7 @@ domain:theinstagramhack.com
 domain:themarvelexperiencetour.com
 domain:thesffblog.com
 domain:thestationbymaker.com
+domain:thewaltdisneycompany.com
 domain:thinkquarterly.co.uk
 domain:thinkquarterly.com
 domain:thinkwithgoogle.com
@@ -2665,6 +2681,7 @@ domain:tiktokw.us
 domain:tiltbrush.com
 domain:timelinestoryteller.com
 domain:timestalks.com
+domain:tokyodisneyresort.jp
 domain:ton.org
 domain:toncenter.com
 domain:toolforge.org
@@ -2770,6 +2787,7 @@ domain:vscodeedu.com
 domain:w.wiki
 domain:wa.me
 domain:wallet.com
+domain:waltdisneystudios.com
 domain:watchanimeattheoffice.com
 domain:watchdisneyfe.com
 domain:watchespn.com
@@ -3164,6 +3182,7 @@ full:dg-meta.video.google.com
 full:dgeft87wbj63p.cloudfront.net
 full:discord-attachments-uploads-prd.storage.googleapis.com
 full:disney.my.sentry.io
+full:disneyplus.com.ssl.sc.omtrdc.net
 full:dl.google.com
 full:dl.l.google.com
 full:dmqdd6hw24ucf.cloudfront.net
