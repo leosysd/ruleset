@@ -3197,7 +3197,6 @@ full:dreamspark.download.prss.microsoft.com
 full:dreamsparkuat.download.prss.microsoft.com
 full:ds0h3roq6wcgc.cloudfront.net
 full:dykkng5hnh52u.cloudfront.net
-full:emoi-cncdn.bing.com
 full:espn.hb.omtrdc.net
 full:espndotcom.tt.omtrdc.net
 full:f.c2r.ts.cdn.office.net
