@@ -1325,6 +1325,7 @@
         "cueme.cn",
         "dbbuilding.fun",
         "deepseek.com",
+        "deepseeksvc.com",
         "diandianlife.top",
         "doubao-dev.com",
         "doubao.com",
@@ -1390,6 +1391,7 @@
         "trae.cn",
         "trae.com.cn",
         "trae.guru",
+        "workbuddy.cn",
         "xiaoaiassist.com",
         "xiaomimimo.com",
         "xiezuocat.com",
@@ -1567,12 +1569,14 @@
         "shrbank.com",
         "spdb.com.cn",
         "suningbank.com",
+        "tctpwebankcdn.net",
         "test-cignacmb.com",
         "unionpay.com",
         "unionpay.net",
         "unionpayintl.cn",
         "unionpayintl.com",
         "unionpaysecure.com",
+        "wbweilicai.com",
         "webank.com",
         "webankcdn.net",
         "wegobank.cn",
@@ -5168,7 +5172,10 @@
       ]
     },
     {
-      "domain_suffix": "deepseek.com"
+      "domain_suffix": [
+        "deepseek.com",
+        "deepseeksvc.com"
+      ]
     },
     {
       "domain_suffix": [
@@ -8196,7 +8203,9 @@
         "tencentcdb.cn",
         "tencentcdb.com",
         "tencentcdb.com.cn",
+        "tencentclb.cn",
         "tencentclb.com",
+        "tencentclb.com.cn",
         "tencentcloud-aiot.com",
         "tencentcloudapi.com",
         "tencentcloudclub.com",
@@ -8301,6 +8310,7 @@
         "360pay.cn",
         "360qhcdn.com",
         "360safe.com",
+        "360scdn.com",
         "360shouji.com",
         "360sjyh.cn",
         "360so.com",
@@ -9372,7 +9382,9 @@
         "tencentcdb.cn",
         "tencentcdb.com",
         "tencentcdb.com.cn",
+        "tencentclb.cn",
         "tencentclb.com",
+        "tencentclb.com.cn",
         "tencentcloud-aiot.com",
         "tencentcloud.com",
         "tencentcloudapi.com",
@@ -9396,6 +9408,7 @@
         "tencentelasticsearch.com",
         "tencentid.com",
         "tencentidentity.com",
+        "tencentmiying.com",
         "tencentmusic.com",
         "tencentproxy.com",
         "tencentrio.com",
@@ -9406,6 +9419,7 @@
         "tencentyun.com",
         "tendbcluster.com",
         "tendis.net",
+        "tengmed.com",
         "tenpay.com",
         "testjrzk.net.cn",
         "testmeet.cn",
