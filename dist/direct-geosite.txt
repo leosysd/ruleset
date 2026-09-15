@@ -6234,6 +6234,7 @@ domain:yuanbao.tencent.com
 domain:yuanbei.biz
 domain:yuanfudao.com
 domain:yuanqi.tencent.com
+domain:yuanqidesk.com
 domain:yuanshen.com
 domain:yuansouti.com
 domain:yuantiku.com
@@ -6343,6 +6344,7 @@ domain:zhanqi.tv
 domain:zhaomi.cn
 domain:zhaomishijie.com
 domain:zhfund.com
+domain:zhhainiao.com
 domain:zhibo8.cc
 domain:zhibo8.com
 domain:zhichanli.com
