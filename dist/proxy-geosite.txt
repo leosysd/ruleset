@@ -1171,6 +1171,7 @@ domain:financeleadsonline.com
 domain:findyourlimits.com
 domain:fiotolia.com
 domain:firebase.com
+domain:firebase.dev
 domain:firebase.io
 domain:firebaseapp.com
 domain:firebaseio.com
@@ -1179,6 +1180,7 @@ domain:fixtracking.com
 domain:flightsimulator.com
 domain:flipwithsurface.com
 domain:flow.google
+domain:flow.google.com
 domain:fluidpreview.com
 domain:flutter.dev
 domain:flutterapp.com
@@ -2169,6 +2171,7 @@ domain:ngeo.com
 domain:nhncorp.jp
 domain:nomadlandmovie.ch
 domain:nomulus.foo
+domain:notebook.google
 domain:notebook.google.com
 domain:notebooklm.google
 domain:notebooklm.google.com
@@ -2633,6 +2636,7 @@ domain:tenor.com
 domain:tensorflow.org
 domain:terragraph.com
 domain:tex-talk.net
+domain:tfbnw.net
 domain:tfhub.dev
 domain:tfsallin.net
 domain:tg.dev
@@ -3273,6 +3277,7 @@ full:openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
 full:openaicom.imgix.net
 full:openaicomproductionae4b.blob.core.windows.net
 full:osrelease.download.prss.microsoft.com
+full:p16-tiktok-dm-sticker-sign-sg.ibyteimg.com
 full:p16-tiktokcdn-com.akamaized.net
 full:pagead-googlehosted.l.google.com
 full:performanceparameters.googleapis.com
