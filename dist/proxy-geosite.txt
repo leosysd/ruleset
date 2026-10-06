@@ -546,6 +546,7 @@ domain:clarity.ms
 domain:clau.de
 domain:claude.ai
 domain:claude.com
+domain:claude.dev
 domain:claudemcpclient.com
 domain:claudemcpcontent.com
 domain:claudeusercontent.com
@@ -1841,6 +1842,7 @@ domain:kumo.com
 domain:l-msedge.net
 domain:labs.google
 domain:labs.google.com
+domain:labstailwind.pa.googleapis.com
 domain:lanternal.com
 domain:latampartneruniversity.com
 domain:lifeatspotify.com
@@ -3217,6 +3219,8 @@ full:g2.gstatic.com
 full:g3.gstatic.com
 full:gamer-cds.cdn.hinet.net
 full:gamer2-cds.cdn.hinet.net
+full:geminiweb-pa.clients.google.com
+full:geminiweb-pa.clients6.google.com
 full:github-api.arkoselabs.com
 full:github-cloud.s3.amazonaws.com
 full:github-production-release-asset-2e65be.s3.amazonaws.com

@@ -1709,6 +1709,7 @@ domain:cn-hongkong.aliyuncs.com
 domain:cn-shanghai.aliyuncs.com
 domain:cn.pool.ntp.org
 domain:cnb.cool
+domain:cnb.space
 domain:cnbeta.com
 domain:cnbeta.com.tw
 domain:cnbetacdn.com
