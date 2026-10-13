@@ -1137,6 +1137,7 @@
       ],
       "domain_suffix": [
         "atom.io",
+        "cafe.github.com",
         "collector.github.com",
         "dependabot.com",
         "gh.io",
@@ -2494,7 +2495,11 @@
       "domain_suffix": [
         "mega.co.nz",
         "mega.io",
-        "mega.nz"
+        "mega.nz",
+        "megaad.nz",
+        "megapay.nz",
+        "megas4.com",
+        "transfer.it"
       ]
     },
     {
@@ -2724,6 +2729,7 @@
         "browser.events.data.msn.cn",
         "browser.events.data.msn.com",
         "c-msedge.net",
+        "cafe.github.com",
         "callersbane.com",
         "cegid-cloud.cn",
         "centralvalidation.com",
@@ -3865,8 +3871,6 @@
     },
     {
       "domain_suffix": [
-        "graph.whatsapp.com",
-        "graph.whatsapp.net",
         "wa.me",
         "whatsapp-plus.info",
         "whatsapp-plus.me",

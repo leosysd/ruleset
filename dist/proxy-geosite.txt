@@ -500,6 +500,7 @@ domain:bwbx.io
 domain:byspotify.com
 domain:bytedapm.com
 domain:c-msedge.net
+domain:cafe.github.com
 domain:callersbane.com
 domain:callhulu.com
 domain:campuslondon.com
@@ -1588,8 +1589,6 @@ domain:gotraffic.net
 domain:graph-fallback.instagram.com
 domain:graph.instagram.com
 domain:graph.org
-domain:graph.whatsapp.com
-domain:graph.whatsapp.net
 domain:graphengine.io
 domain:gridaware.app
 domain:grok.com
@@ -1933,6 +1932,9 @@ domain:meetyourdevices.com
 domain:mega.co.nz
 domain:mega.io
 domain:mega.nz
+domain:megaad.nz
+domain:megapay.nz
+domain:megas4.com
 domain:mepn.com
 domain:mfg-inspector.com
 domain:mgmt-azure-api.cn
@@ -2697,6 +2699,7 @@ domain:tospotify.com
 domain:toutapp.com
 domain:trafficmanager.cn
 domain:trafficmanager.net
+domain:transfer.it
 domain:translatetheweb.com
 domain:trustcenter.cn
 domain:tryfunctions.com
