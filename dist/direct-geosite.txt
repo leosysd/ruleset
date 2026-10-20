@@ -6545,6 +6545,8 @@ full:id6.me
 full:instant.arubanetworks.com
 full:izattime.qcomgeo2.com
 full:local.adguard.org
+full:localhost.weixin.qq.com
+full:localhost.work.weixin.qq.com
 full:log-sdk.gifshow.com
 full:log3-applog-hl.fqnovel.com
 full:log3-applog.fqnovel.com

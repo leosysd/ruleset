@@ -2602,7 +2602,6 @@
         "applicationinsights.net",
         "appserviceenvironment.cn",
         "aria.ms",
-        "asobostudio.com",
         "asp.net",
         "aspnetcdn.com",
         "atom.io",
@@ -2775,7 +2774,6 @@
         "exp-tas.com",
         "fasttrackreadysupport.com",
         "femalefounderscomp.com",
-        "flightsimulator.com",
         "flipwithsurface.com",
         "fluidpreview.com",
         "footprintdns.com",
@@ -3345,6 +3343,7 @@
         "oaiusercontent.com",
         "openai.com",
         "openai.com.cdn.cloudflare.net",
+        "openai.org",
         "sora.com",
         "turn.livekit.cloud"
       ],
@@ -3445,6 +3444,7 @@
         ".playstation",
         "playstation.com",
         "playstation.net",
+        "playstationnetwork.com",
         "sonyentertainmentnetwork.com"
       ]
     },
@@ -3480,7 +3480,8 @@
         "primevideo.info",
         "primevideo.org",
         "primevideo.tv",
-        "prod.service.minerva.devices.a2z.com"
+        "prod.service.minerva.devices.a2z.com",
+        "pv-cdn.net"
       ]
     },
     {
@@ -3932,13 +3933,9 @@
       ]
     },
     {
-      "domain": [
-        "flightsimulator.azureedge.net",
-        "prodforza.blob.core.windows.net"
-      ],
+      "domain": "prodforza.blob.core.windows.net",
       "domain_suffix": [
         ".xbox",
-        "asobostudio.com",
         "beth.games",
         "bethesda.net",
         "bethesdagamestudios.com",
@@ -3946,7 +3943,6 @@
         "callersbane.com",
         "doom.com",
         "elderscrolls.com",
-        "flightsimulator.com",
         "forza.net",
         "forzamotorsport.net",
         "forzaracingchampionship.com",
