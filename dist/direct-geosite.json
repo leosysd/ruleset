@@ -215,7 +215,9 @@
       "domain_suffix": [
         "agora.io",
         "agoraio.cn",
-        "agoralab.co"
+        "agoralab.co",
+        "easemob.com",
+        "shengwang.cn"
       ]
     },
     {
@@ -1469,6 +1471,7 @@
         "bocaviation.com",
         "boccfc.cc",
         "boccfc.cn",
+        "bocd.com.cn",
         "bocfullertonbank.com",
         "bocgi.com",
         "bocgins.com",
@@ -1497,6 +1500,8 @@
         "ccblife-test.com.cn",
         "ccbtrust.com.cn",
         "ccbxt.com",
+        "cdrcb.com",
+        "cdrcbank.com",
         "cebbank.com",
         "cfc108.com",
         "cgbchina.com.cn",
@@ -1544,6 +1549,7 @@
         "hsbcinsurance.com.cn",
         "hsbcqh.com.cn",
         "hxb.com.cn",
+        "ibangbank.com",
         "icbc.com.cn",
         "icbccs.com.cn",
         "icbccstz.com.cn",
@@ -1970,6 +1976,8 @@
         "speiyou.com",
         "sydw8.com",
         "syh.zybang.com",
+        "szu.app",
+        "szu.moe",
         "tal.com",
         "tesoon.com",
         "tongxuepie.com",
@@ -2084,6 +2092,7 @@
         "listenai.com",
         "maixhub.com",
         "moedu.com",
+        "nanocorechip.com",
         "oshwhub.com",
         "quecmall.cn",
         "quectel.com.cn",
@@ -2539,7 +2548,6 @@
         "gcloudsdk.com",
         "gcloudsvcs.com",
         "gcores.com",
-        "gdtimg.com",
         "gifshow.com",
         "gitv.cn",
         "gitv.tv",
@@ -3285,7 +3293,6 @@
         "gclouddolphin.com",
         "gcloudsdk.com",
         "gcloudsvcs.com",
-        "gdtimg.com",
         "goto-game.com",
         "goto-game.mobi",
         "goto-game.net.cn",
@@ -4332,6 +4339,7 @@
         "chinaxiv.org",
         "chndoi.org",
         "cidp.com.cn",
+        "cldisk.com",
         "cnbksy.com",
         "cnki.com.cn",
         "cnki.net",
@@ -4400,6 +4408,7 @@
         "xuexi365.com",
         "xuexi365.com.cn",
         "xuexi365.net",
+        "xuexitong.com",
         "xxtmail.com",
         "yiigle.com",
         "ylike.net",
@@ -4696,6 +4705,10 @@
       ]
     },
     {
+      "domain": [
+        "app.moegirl.org.cn",
+        "storage.moegirl.org.cn"
+      ],
       "domain_suffix": [
         "allhistory.com",
         "chaz.fun",
@@ -4705,8 +4718,6 @@
         "jikipedia.com",
         "mbalib.com",
         "mcmod.cn",
-        "moegirl.org",
-        "moegirl.org.cn",
         "pwsannong.com",
         "qiuwen.wiki",
         "qiuwenbaike.cn",
@@ -8849,7 +8860,6 @@
         "gclouddolphin.com",
         "gcloudsdk.com",
         "gcloudsvcs.com",
-        "gdtimg.com",
         "goto-game.com",
         "goto-game.mobi",
         "goto-game.net.cn",

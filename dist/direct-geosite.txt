@@ -1137,6 +1137,7 @@ domain:bocamchina.com
 domain:bocaviation.com
 domain:boccfc.cc
 domain:boccfc.cn
+domain:bocd.com.cn
 domain:bocfullertonbank.com
 domain:bocgi.com
 domain:bocgins.com
@@ -1425,6 +1426,8 @@ domain:cdntips.net
 domain:cdnv1.cn
 domain:cdnv2.cn
 domain:cdnv3.cn
+domain:cdrcb.com
+domain:cdrcbank.com
 domain:ce.cn
 domain:ceati.org.cn
 domain:cebbank.com
@@ -1575,6 +1578,7 @@ domain:ckxx.net
 domain:clawhub-mirror.com
 domain:clawhubmirror.com
 domain:clawsentry.cn
+domain:cldisk.com
 domain:click.gamersky.com
 domain:click.hunantv.com
 domain:click.uve.mobile.sina.cn
@@ -2256,6 +2260,7 @@ domain:e0n.cn
 domain:e5.ru
 domain:easebar.com
 domain:easec.com.cn
+domain:easemob.com
 domain:eastday.com
 domain:eastmoney.com
 domain:eastmoneyfutures.com
@@ -3120,6 +3125,7 @@ domain:iadmatapk.nosdn.127.net
 domain:iadmusicmat.music.126.net
 domain:iadmusicmatvideo.music.126.net
 domain:ialicdn.com
+domain:ibangbank.com
 domain:ibcet.org
 domain:ibidian.com
 domain:ibobscs.com
@@ -4158,8 +4164,6 @@ domain:modelarts-maas.com
 domain:modelers.cn
 domain:modex.com.cn
 domain:moedu.com
-domain:moegirl.org
-domain:moegirl.org.cn
 domain:moer.cn
 domain:mogoo.com
 domain:mogu.com
@@ -4289,6 +4293,7 @@ domain:nadianshi.com
 domain:nagcloudcs.com
 domain:nalrer.cn
 domain:namiso.com
+domain:nanocorechip.com
 domain:nanyuenews.com
 domain:narwal.com
 domain:narwaltech.com
@@ -4942,6 +4947,7 @@ domain:sharesdk.cn
 domain:shedunews.net
 domain:shejijia.com
 domain:shengqugames.com
+domain:shengwang.cn
 domain:shengyi.ai
 domain:shengyizhuanjia.com
 domain:shenjing.com
@@ -5146,6 +5152,8 @@ domain:szlcsc.com
 domain:sznews.com
 domain:szpgm.com
 domain:szse.cn
+domain:szu.app
+domain:szu.moe
 domain:t.cn
 domain:t00ls.cc
 domain:t00ls.net
@@ -6147,6 +6155,7 @@ domain:xuexi.cn
 domain:xuexi365.com
 domain:xuexi365.com.cn
 domain:xuexi365.net
+domain:xuexitong.com
 domain:xunfei.cn
 domain:xunfeixxj.com
 domain:xunlei.com
@@ -6530,6 +6539,7 @@ full:ads5-normal.zijieapi.com
 full:ai.zhaomi.cn
 full:api.alibabacloud.com
 full:apilog-web.acfun.cn
+full:app.moegirl.org.cn
 full:asusrouter.com
 full:cn.alibabacloud.com
 full:cueme-api.quark.cn
@@ -6595,6 +6605,7 @@ full:sentry.x5.ru
 full:setmeup.arubanetworks.com
 full:ss.bjmu.edu.cn
 full:status.alibabacloud.com
+full:storage.moegirl.org.cn
 full:study.163.com
 full:time.amazonaws.cn
 full:time.izatcloud.net

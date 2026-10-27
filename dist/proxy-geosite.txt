@@ -62,6 +62,7 @@ domain:acrobat.com
 domain:actifio.com
 domain:adaptivecards.io
 domain:adbecrsl.com
+domain:addtodropbox.com
 domain:adgoogle.net
 domain:admeld.com
 domain:admob-cn.com
@@ -151,9 +152,12 @@ domain:android.com
 domain:androidify.com
 domain:angulardart.org
 domain:ankarazirvesi2018.com
+domain:ant.dev
 domain:anthropic.com
+domain:anthropic.team
 domain:antigravity-unleash.goog
 domain:antigravity.google
+domain:antspace.dev
 domain:ao3.org
 domain:api-extractor.com
 domain:api.ai
@@ -521,6 +525,7 @@ domain:ch9.ms
 domain:charlestonroadregistry.com
 domain:charticulator.com
 domain:chat.com
+domain:chatbotclaude.com
 domain:chatgpt.com
 domain:chatgpt.livekit.cloud
 domain:chatgpt.site
@@ -545,10 +550,16 @@ domain:citylab.com
 domain:clarity.ms
 domain:clau.de
 domain:claude.ai
+domain:claude.app
 domain:claude.com
 domain:claude.dev
+domain:claude.new
+domain:claude.site
+domain:claudeacademy.com
 domain:claudemcpclient.com
 domain:claudemcpcontent.com
+domain:claudepages.dev
+domain:claudestudio.com
 domain:claudeusercontent.com
 domain:click-url.com
 domain:client-update.queniuqe.com
@@ -616,6 +627,7 @@ domain:dart.dev
 domain:dartlang.org
 domain:dartpad.dev
 domain:dartsearch.net
+domain:dash.ai
 domain:dataliberation.org
 domain:db.tt
 domain:dcg.microsoft.com
@@ -768,6 +780,7 @@ domain:dockerstatic.com
 domain:docs.com
 domain:docs.new
 domain:docs.rs
+domain:docsend.com
 domain:dollarfotoclub.com
 domain:dollarphotoclub.com
 domain:dollarphotosclub.com
@@ -792,12 +805,15 @@ domain:dropbox.tech
 domain:dropboxapi.com
 domain:dropboxbusiness.com
 domain:dropboxcaptcha.com
+domain:dropboxexperiment.com
 domain:dropboxforum.com
 domain:dropboxforums.com
 domain:dropboxinsiders.com
+domain:dropboxlegal.com
 domain:dropboxmail.com
 domain:dropboxpartners.com
 domain:dropboxstatic.com
+domain:dropboxteam.com
 domain:dropboxusercontent.com
 domain:dssott.com
 domain:dtci.co
@@ -1669,6 +1685,8 @@ domain:hbospain.com
 domain:hbotvsales.com
 domain:hdinsightservices.cn
 domain:hdrplusdata.org
+domain:hellofax.com
+domain:hellosign.com
 domain:hey.boo
 domain:hf.co
 domain:hf.space
@@ -2594,6 +2612,7 @@ domain:steamconnecttest.com
 domain:steamcontent.com
 domain:steamdeck.com
 domain:steamgames.com
+domain:steamos.cloud
 domain:steampowered.com
 domain:steampowered.com.8686c.com
 domain:steamserver.net
@@ -3182,6 +3201,7 @@ full:d2xmjdvx03ij56.cloudfront.net
 full:d36nr0u3xmc4mm.cloudfront.net
 full:d3aqoihi2n8ty8.cloudfront.net
 full:d3c27h4odz752x.cloudfront.net
+full:d3stzm2eumvgb4.cloudfront.net
 full:d3vd9lfkzbru3h.cloudfront.net
 full:d6d4ismr40iw.cloudfront.net
 full:d6tizftlrpuof.cloudfront.net
@@ -3206,6 +3226,7 @@ full:download.visualstudio.microsoft.com
 full:dqrpb9wgowsf5.cloudfront.net
 full:dreamspark.download.prss.microsoft.com
 full:dreamsparkuat.download.prss.microsoft.com
+full:dropbox.zendesk.com
 full:ds0h3roq6wcgc.cloudfront.net
 full:dykkng5hnh52u.cloudfront.net
 full:espn.hb.omtrdc.net
@@ -3269,6 +3290,7 @@ full:notebooklm-pa.googleapis.com
 full:notebooklm.googleapis.com
 full:o.pki.goog
 full:o33249.ingest.sentry.io
+full:o33249.ingest.us.sentry.io
 full:ocsp.pki.goog
 full:oemsoc.download.prss.microsoft.com
 full:oemsocuat.download.prss.microsoft.com
@@ -3287,6 +3309,7 @@ full:osrelease.download.prss.microsoft.com
 full:p16-tiktok-dm-sticker-sign-sg.ibyteimg.com
 full:p16-tiktokcdn-com.akamaized.net
 full:pagead-googlehosted.l.google.com
+full:paper-attachments.s3.amazonaws.com
 full:performanceparameters.googleapis.com
 full:pki-goog.l.google.com
 full:ppl-ai-file-upload.s3.amazonaws.com

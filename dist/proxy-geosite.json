@@ -139,13 +139,23 @@
     {
       "domain": "servd-anthropic-website.b-cdn.net",
       "domain_suffix": [
+        "ant.dev",
         "anthropic.com",
+        "anthropic.team",
+        "antspace.dev",
+        "chatbotclaude.com",
         "clau.de",
         "claude.ai",
+        "claude.app",
         "claude.com",
         "claude.dev",
+        "claude.new",
+        "claude.site",
+        "claudeacademy.com",
         "claudemcpclient.com",
         "claudemcpcontent.com",
+        "claudepages.dev",
+        "claudestudio.com",
         "claudeusercontent.com"
       ]
     },
@@ -577,23 +587,34 @@
       ]
     },
     {
-      "domain": "paper-attachments.s3.amazonaws.com",
+      "domain": [
+        "dropbox.zendesk.com",
+        "paper-attachments.s3.amazonaws.com"
+      ],
       "domain_suffix": [
+        "addtodropbox.com",
+        "dash.ai",
         "db.tt",
+        "docsend.com",
         "dropbox-dns.com",
         "dropbox.com",
         "dropbox.tech",
         "dropboxapi.com",
         "dropboxbusiness.com",
         "dropboxcaptcha.com",
+        "dropboxexperiment.com",
         "dropboxforum.com",
         "dropboxforums.com",
         "dropboxinsiders.com",
+        "dropboxlegal.com",
         "dropboxmail.com",
         "dropboxpartners.com",
         "dropboxstatic.com",
+        "dropboxteam.com",
         "dropboxusercontent.com",
-        "getdropbox.com"
+        "getdropbox.com",
+        "hellofax.com",
+        "hellosign.com"
       ]
     },
     {
@@ -3323,6 +3344,7 @@
       "domain": [
         "browser-intake-datadoghq.com",
         "o33249.ingest.sentry.io",
+        "o33249.ingest.us.sentry.io",
         "openai.qualtrics.com",
         "openaiapi-site.azureedge.net",
         "openaiassets.blob.core.windows.net",
@@ -3692,6 +3714,7 @@
         "steamcontent.com",
         "steamdeck.com",
         "steamgames.com",
+        "steamos.cloud",
         "steampowered.com",
         "steampowered.com.8686c.com",
         "steamserver.net",
@@ -3801,6 +3824,7 @@
         "d36nr0u3xmc4mm.cloudfront.net",
         "d3aqoihi2n8ty8.cloudfront.net",
         "d3c27h4odz752x.cloudfront.net",
+        "d3stzm2eumvgb4.cloudfront.net",
         "d3vd9lfkzbru3h.cloudfront.net",
         "d6d4ismr40iw.cloudfront.net",
         "d6tizftlrpuof.cloudfront.net",
