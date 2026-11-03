@@ -348,6 +348,7 @@ domain:bingapis.com
 domain:bingapistatistics.com
 domain:bingparachute.com
 domain:bingsandbox.com
+domain:bingstatic.com
 domain:bingvisualsearch.com
 domain:bingworld.com
 domain:blazor.net
@@ -628,6 +629,7 @@ domain:dartlang.org
 domain:dartpad.dev
 domain:dartsearch.net
 domain:dash.ai
+domain:data.microsoft.com
 domain:dataliberation.org
 domain:db.tt
 domain:dcg.microsoft.com
@@ -1774,6 +1776,7 @@ domain:imgurinc.com
 domain:impermium.com
 domain:imstagram.com
 domain:imtagram.com
+domain:in.applicationinsights.azure.com
 domain:ingads.com
 domain:insiderdevtour.com
 domain:instaadder.com
@@ -2123,6 +2126,7 @@ domain:msftconnecttest.com
 domain:msfteducation.ca
 domain:msftncsi.com
 domain:msftnet.org
+domain:msftstatic.com
 domain:msgamesresearch.com
 domain:msgamestudios.com
 domain:mshome.net
@@ -2161,6 +2165,7 @@ domain:nelreports.net
 domain:nest.com
 domain:netflix.ca
 domain:netflix.com
+domain:netflix.com.edgesuite.net
 domain:netflix.net
 domain:netflixdnstest0.com
 domain:netflixdnstest1.com
@@ -2549,6 +2554,7 @@ domain:sportstream.com
 domain:spoti.fi
 domain:spotify-everywhere.com
 domain:spotify.com
+domain:spotify.com.edgesuite.net
 domain:spotify.design
 domain:spotify.link
 domain:spotifycdn.com
@@ -2652,6 +2658,7 @@ domain:telegram.dog
 domain:telegram.me
 domain:telegram.org
 domain:telegram.space
+domain:telemetry.microsoft.com
 domain:telesco.pe
 domain:tellapart.com
 domain:tellmewhygame.com
@@ -2700,11 +2707,14 @@ domain:tiktokeu-cdn.com
 domain:tiktokglobalshopv.com
 domain:tiktokminis.us
 domain:tiktokrow-cdn.com
+domain:tiktokshop.com
+domain:tiktokstaticb.com
 domain:tiktokv.com
 domain:tiktokv.com.edgekey.net
 domain:tiktokv.com.edgesuite.net
 domain:tiktokv.eu
 domain:tiktokv.us
+domain:tiktokvapp.com
 domain:tiktokw.eu
 domain:tiktokw.us
 domain:tiltbrush.com
@@ -3132,6 +3142,9 @@ full:antigravity-pa.googleapis.com
 full:antigravity.googleapis.com
 full:aod-pod-uk-live.akamaized.net
 full:apps5.oingo.com
+full:appsgenaiserver-pa.clients.google.com
+full:appsgenaiserver-pa.clients6.google.com
+full:appsgenaiserver-pa.googleapis.com
 full:as-dash-uk-live.akamaized.net
 full:as-hls-uk-live.akamaized.net
 full:audio-ak-spotify-com.akamaized.net
@@ -3207,6 +3220,8 @@ full:d6d4ismr40iw.cloudfront.net
 full:d6tizftlrpuof.cloudfront.net
 full:daily-cloudcode-pa.googleapis.com
 full:dartsearch-cn.net
+full:dc.applicationinsights.azure.com
+full:dc.services.visualstudio.com
 full:ddacn6pr5v0tl.cloudfront.net
 full:developer.microsoft.com
 full:dg-meta.video.google.com
@@ -3234,6 +3249,8 @@ full:espndotcom.tt.omtrdc.net
 full:f.c2r.ts.cdn.office.net
 full:f3b7q2p3.ssl.hwcdn.net
 full:firebase-settings.crashlytics.com
+full:firebaselogging-pa.googleapis.com
+full:firebaselogging.googleapis.com
 full:fontfiles.googleapis.com
 full:fonts.googleapis.com
 full:fonts.gstatic.com
@@ -3274,6 +3291,7 @@ full:itacademy.download.prss.microsoft.com
 full:itacademyuat.download.prss.microsoft.com
 full:lex.download.prss.microsoft.com
 full:lexuat.download.prss.microsoft.com
+full:live.applicationinsights.azure.com
 full:lv.queniujq.cn
 full:mbs.download.prss.microsoft.com
 full:mpnbenefits.download.prss.microsoft.com
@@ -3359,13 +3377,13 @@ full:roovza.inapps.appsflyersdk.com
 full:roovza.launches.appsflyersdk.com
 full:roovza.skadsdk.appsflyersdk.com
 full:rsm.download.prss.microsoft.com
+full:rt.services.visualstudio.com
 full:safebrowsing-cache.google.com
 full:safebrowsing.googleapis.com
 full:sdx.microsoft.com
 full:service.urchin.com
 full:shell.cdn.office.net
 full:software.download.prss.microsoft.com
-full:spotify.com.edgesuite.net
 full:spotify.map.fastly.net
 full:spotify.map.fastlylb.net
 full:ssl-google-analytics.l.google.com

@@ -735,6 +735,7 @@ domain:alitianji.com
 domain:alitrip.com
 domain:alitui.weibo.com
 domain:aliunicorn.com
+domain:alivecdn.com
 domain:aliway.com
 domain:aliwork.com
 domain:aliwx.com.cn
@@ -757,6 +758,7 @@ domain:allawno.com
 domain:allawntech.com
 domain:allhistory.com
 domain:alloyteam.com
+domain:allwinnertech.com
 domain:alog.umeng.com
 domain:alog.umengcloud.com
 domain:alogs.umeng.com
@@ -1188,6 +1190,7 @@ domain:building.fun
 domain:buke999.com
 domain:burningvocabulary.cn
 domain:burningvocabulary.com
+domain:busyming.com
 domain:butterfly-static.cn
 domain:butterflyai.cn
 domain:buyjingxi.com
@@ -1245,6 +1248,7 @@ domain:caiyunai.com
 domain:caiyunapp.com
 domain:caiyuncdn.com
 domain:calorietech.com
+domain:cambricon.com
 domain:camcard.com
 domain:camscanner.com
 domain:cankaoxiaoxi.com
@@ -2158,6 +2162,7 @@ domain:douban.fm
 domain:doubanio.com
 domain:doubao-dev.com
 domain:doubao.com
+domain:doubaoapps.com
 domain:doubaocdn.com
 domain:doucang.cn
 domain:doucang.com
@@ -2376,6 +2381,9 @@ domain:fanqiesdkpic.com
 domain:fanqiesdkstatic.com
 domain:fanqiesdkvod.com
 domain:fanxingliveshow.com
+domain:favonis.cloud
+domain:favonis.com
+domain:favonis.space
 domain:faxingbao.com
 domain:fbank.com
 domain:fbstatic.cn
@@ -2910,10 +2918,12 @@ domain:hkmanga.com
 domain:hlzqgs.com
 domain:hm.baidu.com
 domain:hmma.baidu.com
+domain:hmxs.cn
 domain:hnacargo.com
 domain:hnair.com
 domain:hnbntv.com
 domain:hndt.com
+domain:hnlshm.com
 domain:hnol.net
 domain:hnr.cn
 domain:hntv.tv
@@ -3481,7 +3491,6 @@ domain:jiemian.com.cn
 domain:jiguang.cn
 domain:jike.city
 domain:jikecdn.com
-domain:jikipedia.com
 domain:jin10.com
 domain:jinantimes.com.cn
 domain:jinchutou.com
@@ -3615,6 +3624,7 @@ domain:kaifayun.com
 domain:kaihong.com
 domain:kaipai.com
 domain:kajicam.com
+domain:kakaxing.com
 domain:kanbox.com
 domain:kanimg.com
 domain:kankanews.com
@@ -3998,6 +4008,7 @@ domain:mashort.cn
 domain:max-c.com
 domain:maxadmin.cn
 domain:maxjia.com
+domain:mayibao.cn
 domain:mayshijia.com
 domain:mbalib.com
 domain:mbdlog.iqiyi.com
@@ -4147,6 +4158,12 @@ domain:mmarket.com
 domain:mmarket6.com
 domain:mmbizurl.cn
 domain:mmstat.com
+domain:mnc000.mcc460.pub.3gppnetwork.org
+domain:mnc002.mcc460.pub.3gppnetwork.org
+domain:mnc004.mcc460.pub.3gppnetwork.org
+domain:mnc007.mcc460.pub.3gppnetwork.org
+domain:mnc011.mcc460.pub.3gppnetwork.org
+domain:mnc015.mcc460.pub.3gppnetwork.org
 domain:mndqlib.net
 domain:mnogolososya.ru
 domain:mnw.cn
@@ -4214,6 +4231,7 @@ domain:mszdld.cn
 domain:mszdld.com
 domain:mszdld.net
 domain:mszq.com
+domain:mthreads.com
 domain:mti100.com
 domain:mtime.cn
 domain:mtime.com
@@ -4673,6 +4691,7 @@ domain:qianxueyunke.com
 domain:qianxun.com
 domain:qianyierp.com
 domain:qianzhan.com
+domain:qiaqiafood.com
 domain:qichacha.com
 domain:qichamao.com
 domain:qidian.com
@@ -5052,6 +5071,7 @@ domain:sou.cn
 domain:sou.com
 domain:soulapp.cn
 domain:soulteary.com
+domain:southchip.com
 domain:southcn.com
 domain:southmoney.com
 domain:sparenode.com
@@ -5154,6 +5174,7 @@ domain:szpgm.com
 domain:szse.cn
 domain:szu.app
 domain:szu.moe
+domain:t-head.cn
 domain:t.cn
 domain:t00ls.cc
 domain:t00ls.net
@@ -5348,6 +5369,7 @@ domain:tendcloud.com
 domain:tendis.net
 domain:tengmed.com
 domain:tenpay.com
+domain:tenpayglobal.com
 domain:tesoon.com
 domain:test-cignacmb.com
 domain:testjrzk.net.cn
@@ -5916,6 +5938,8 @@ domain:wenxiaozhan.net
 domain:wenxin-ge.com
 domain:werepository.com.cn
 domain:west95582.com
+domain:wesure.cn
+domain:wesure100.com
 domain:wetv.vip
 domain:wetvinfo.com
 domain:weui.io
@@ -6069,6 +6093,7 @@ domain:xiaohu8.com
 domain:xiaojukeji.com
 domain:xiaoluyouxuan.com
 domain:xiaoluzhidian.com
+domain:xiaomaigui.com
 domain:xiaomengai.com
 domain:xiaomi.cn
 domain:xiaomi.com
@@ -6527,6 +6552,7 @@ domain:zxxk.com
 domain:zybang.com
 domain:zygbdszt.net.cn
 domain:zyhe.com.cn
+domain:zymls.com
 domain:zysn.net
 domain:zz.bdstatic.com
 full:account-cn.alibabacloud.com
