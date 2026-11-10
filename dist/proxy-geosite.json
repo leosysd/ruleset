@@ -137,7 +137,11 @@
       ]
     },
     {
-      "domain": "servd-anthropic-website.b-cdn.net",
+      "domain": [
+        "http-intake.logs.us5.datadoghq.com",
+        "o1158394.ingest.us.sentry.io",
+        "servd-anthropic-website.b-cdn.net"
+      ],
       "domain_suffix": [
         "ant.dev",
         "anthropic.com",
@@ -1119,7 +1123,8 @@
         "copilot-telemetry-service.githubusercontent.com",
         "copilot-telemetry.githubusercontent.com",
         "copilot-workspace.githubnext.com",
-        "copilotprodattachments.blob.core.windows.net"
+        "copilotprodattachments.blob.core.windows.net",
+        "production-copilot-host-westus.webpubsub.azure.com"
       ],
       "domain_suffix": "githubcopilot.com"
     },
@@ -1135,6 +1140,7 @@
         "github-production-repository-image-32fea6.s3.amazonaws.com",
         "github-production-upload-manifest-file-7fdce7.s3.amazonaws.com",
         "github-production-user-asset-6210df.s3.amazonaws.com",
+        "production-copilot-host-westus.webpubsub.azure.com",
         "productionresultssa0.blob.core.windows.net",
         "productionresultssa1.blob.core.windows.net",
         "productionresultssa10.blob.core.windows.net",
@@ -3972,6 +3978,7 @@
       "domain_suffix": [
         "grok.com",
         "grok.x.com",
+        "grokbot.com",
         "grokipedia.com",
         "x.ai"
       ]
