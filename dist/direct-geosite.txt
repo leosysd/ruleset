@@ -879,6 +879,8 @@ domain:ar.umeng.com
 domain:arcaea.cn
 domain:ark-doc-resources.cn
 domain:ark.letv.com
+domain:arknights.com
+domain:arknights.com.cn
 domain:arrow.cn
 domain:as-south-0.myhuaweicloud.com
 domain:as-south-201.myhuaweicloud.com
@@ -2901,6 +2903,7 @@ domain:hffunds.cn
 domain:hftfund.com
 domain:hfx.net
 domain:hfzq.com.cn
+domain:hgto.cc
 domain:hhtravel.com
 domain:hhtravel.com.tw
 domain:hi-butterfly.cn
@@ -3141,7 +3144,13 @@ domain:hx168.com.cn
 domain:hxb.com.cn
 domain:hxnews.com
 domain:hxzq.cn
+domain:hycdn.cn
+domain:hycdn.com
 domain:hypercachenode.com
+domain:hypergryph.cn
+domain:hypergryph.com
+domain:hypergryph.com.cn
+domain:hypergryph.net
 domain:hytung.cn
 domain:hzchengdun.com
 domain:hzchengdun.net
@@ -4393,6 +4402,7 @@ domain:nfpeople.com
 domain:nga.cn
 domain:ngabbs.com
 domain:ngacn.cc
+domain:nia-teams.com
 domain:nic.xin
 domain:nicaifu.com
 domain:nihaoafrica.org
@@ -4444,6 +4454,7 @@ domain:obricclouddw.com
 domain:oc.umeng.com
 domain:oceancloudapi.com
 domain:ocfund.cn
+domain:octavedge.com
 domain:ocwms.com
 domain:oeeee.com
 domain:oend.net
@@ -5064,6 +5075,8 @@ domain:sinajs.com
 domain:singworld.net
 domain:sipeed.com
 domain:skillhub.cn
+domain:skland.com
+domain:skland.net
 domain:sksight.com
 domain:skydweller.cn
 domain:skypixel.com
