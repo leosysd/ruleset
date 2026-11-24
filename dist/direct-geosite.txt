@@ -155,6 +155,7 @@ domain:16q.cn
 domain:17.172.in-addr.arpa
 domain:17173.com
 domain:17173cdn.com
+domain:172.com
 domain:172mix.com
 domain:178.com
 domain:17k.com
@@ -181,8 +182,11 @@ domain:1hai.cn
 domain:1huizhan.com
 domain:1kkk.com
 domain:1ppt.com
+domain:1qianbao.com
 domain:1tyy.cn
 domain:1xhh.cn
+domain:1y.com
+domain:1ycdn.com
 domain:2.0.192.in-addr.arpa
 domain:20.172.in-addr.arpa
 domain:2025copy.com
@@ -278,6 +282,7 @@ domain:3ili6.cn
 domain:3songshu.com
 domain:40017.cn
 domain:4008-517-517.cn
+domain:4008000000.com
 domain:4008117117.com
 domain:42r.cn
 domain:4399.cn
@@ -340,6 +345,7 @@ domain:58ganji.com
 domain:58lovepet.com
 domain:58uxd.com
 domain:58v5.cn
+domain:58wos.com.cn
 domain:58xinghuo.cn
 domain:58xinghuo.com
 domain:58xueche.com
@@ -652,6 +658,7 @@ domain:aixcoder.com
 domain:aixifan.com
 domain:aiyunxiao.com
 domain:aizgtc.com
+domain:ajkimg.com
 domain:ajzq.com
 domain:ak-p.tripcdn.com
 domain:ak-s-cw.tripcdn.com
@@ -979,6 +986,9 @@ domain:baifae.com
 domain:baifen.music.baidu.com
 domain:baifubao.com
 domain:baihe.com
+domain:baishan.com
+domain:baishancdnx.cn
+domain:baishancloud.com
 domain:baishinetwork.com
 domain:baitiao.com
 domain:baltamatica.cn
@@ -2401,6 +2411,7 @@ domain:fanxingliveshow.com
 domain:favonis.cloud
 domain:favonis.com
 domain:favonis.space
+domain:faw-vw.com
 domain:faw.cn
 domain:faxingbao.com
 domain:fbank.com
@@ -3969,6 +3980,7 @@ domain:lrts.me
 domain:ls66.cn
 domain:lsplayer.com
 domain:lstat.youku.com
+domain:lu.com
 domain:lu.sogou.com
 domain:lu.sogoucdn.com
 domain:lu1da.cn
@@ -3976,8 +3988,11 @@ domain:luckincoffeecdn.com
 domain:ludashi.com
 domain:ludosuperstar.cn
 domain:ludoworld.net
+domain:lufax.com
+domain:lufaxcdn.com
 domain:lufunds.com
 domain:luhua.cn
+domain:lujincaifu.com
 domain:luojilab.com
 domain:lvtds.com
 domain:lwurl.to
@@ -4141,6 +4156,7 @@ domain:mijia.tech
 domain:minapp.com
 domain:mincdn.com
 domain:mindspore.cn
+domain:mingyuanfund.com
 domain:minimaxi.com
 domain:miniso-au.com
 domain:miniso-bh.com
@@ -4535,6 +4551,7 @@ domain:oss-cn-shanghai.aliyuncs.com
 domain:oss-cn-shenzhen.aliyuncs.com
 domain:oss-cn-wulanchabu.aliyuncs.com
 domain:oss-cn-zhangjiakou.aliyuncs.com
+domain:oss-enet.aliyuncs.com
 domain:oss-eu-central-1.aliyuncs.com
 domain:oss-eu-west-1.aliyuncs.com
 domain:oss-me-east-1.aliyuncs.com
@@ -4551,6 +4568,8 @@ domain:p-log.ykimg.com
 domain:p.aty.sohu.com
 domain:p2cdn.com
 domain:p4p.sina.com.cn
+domain:pacfc.com
+domain:pafoundation.org.cn
 domain:pagescube.cn
 domain:pagescube.com
 domain:paidaojia.cn
@@ -4594,6 +4613,7 @@ domain:petalmaps.com
 domain:pg0.cn
 domain:pgdt.gtimg.cn
 domain:pgyer.com
+domain:ph.com.cn
 domain:phfund.com.cn
 domain:phicomm.me
 domain:philanthropy.xin
@@ -4613,6 +4633,7 @@ domain:pigai.org
 domain:pimlog.baidu.com
 domain:pinduoduo.com
 domain:pinduoduo.net
+domain:pingan.cn
 domain:pingan.com
 domain:pingan.com.cn
 domain:pingan.com.hk
@@ -4801,6 +4822,7 @@ domain:qnssl.com
 domain:qpb.sohu.com
 domain:qpb1.sohu.com
 domain:qpic.cn
+domain:qpmcn.com
 domain:qq.cn.com
 domain:qq.com
 domain:qq.com.cn
@@ -5385,6 +5407,7 @@ domain:tencent.com.hk
 domain:tencent.design
 domain:tencent.net
 domain:tencent.net.cn
+domain:tencentads.com
 domain:tencentapps.com
 domain:tencentbyod.com
 domain:tencentcdb.cn
@@ -5572,6 +5595,7 @@ domain:trip.com
 domain:tripcdn.cn
 domain:tripcdn.com
 domain:tritoninfo.net
+domain:trpcdn.com
 domain:trpcdn.net
 domain:ts.net
 domain:tsinghuaic.com
@@ -6319,6 +6343,7 @@ domain:yillionbank.com
 domain:yingjiesheng.com
 domain:yingjiesheng.net
 domain:yingxiong.com
+domain:yiqianbao.com
 domain:yisou.com
 domain:yiwanzhushou.com
 domain:yiyan.baidu.com
@@ -6373,6 +6398,8 @@ domain:youzanyun.com
 domain:yowhale.com
 domain:ypppt.com
 domain:yqb.com
+domain:yqbimg.net
+domain:yqbmall.com
 domain:ys7.com
 domain:yst.com.cn
 domain:ystbds.com
@@ -6429,6 +6456,7 @@ domain:yundaex.com
 domain:yundalog.com
 domain:yundaltl.com
 domain:yundasys.com
+domain:yundun.com
 domain:yundzh.com
 domain:yunfancdn.com
 domain:yunify.com
@@ -6519,6 +6547,8 @@ domain:zgxytc.com
 domain:zgzsa.com
 domain:zhan.com
 domain:zhanqi.tv
+domain:zhaoliangji.com
+domain:zhaoliangjipc.com
 domain:zhaomi.cn
 domain:zhaomishijie.com
 domain:zhenai.com
